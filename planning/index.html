@@ -9,13 +9,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1589339017251690724";
+      element.src = "/WAI/assets/scripts/main.js?1589393100343693820";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1589339017251690724">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1589393100343693820">
 
 <title> Planning and Policies Overview | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.6.1 -->
 <meta name="generator" content="Jekyll v3.8.5" />
@@ -89,9 +89,9 @@
     </ul>
   </nav>
 </div>
-</header><nav class="mainnav" aria-label="Main" lang="en"><ul><li><a lang="en" href="/WAI/fundamentals/"><span>Accessibility Fundamentals</span></a></li><li><a lang="en" href="/WAI/planning/"><span>Planning &amp; Policies</span></a></li><li><a lang="en" href="/WAI/design-develop/"><span>Design &amp; Develop</span></a></li><li><a lang="en" href="/WAI/test-evaluate/"><span>Test &amp; Evaluate</span></a></li><li><a lang="en" href="/WAI/teach-advocate/"><span>Teach &amp; Advocate</span></a></li><li><a lang="en" href="/WAI/standards-guidelines/"><span>Standards/<wbr>Guidelines</span></a></li></ul></nav><nav class="default-grid breadcrumb" aria-label="Breadcrumb" lang="en">
+</header><nav class="mainnav" aria-label="Main" lang="en"><ul><li><a lang="en" href="/WAI/fundamentals/"><span>Accessibility Fundamentals</span></a></li><li><a lang="en" href="/WAI/planning/"><span>Planning &amp; Policies</span></a></li><li><a lang="en" href="/WAI/design-develop/"><span>Design &amp; Develop</span></a></li><li><a lang="en" href="/WAI/test-evaluate/"><span>Test &amp; Evaluate</span></a></li><li><a lang="en" href="/WAI/teach-advocate/"><span>Teach &amp; Advocate</span></a></li><li><a lang="en" href="/WAI/standards-guidelines/"><span>Standards/<wbr>Guidelines</span></a></li></ul></nav><nav class="default-grid breadcrumb" aria-label="Breadcrumb" lang="en">
   <ul style="align-self: center;">
-    <li><a href="/WAI/" lang="en">Home</a></li><li><a lang="en" href="/WAI/planning/" aria-current="page"><span>Planning &amp; Policies</span></a></li></ul>
+    <li><a href="/WAI/" lang="en">Home</a></li><li><a lang="en" href="/WAI/planning/" aria-current="page"><span>Planning &amp; Policies</span></a></li></ul>
 </nav>
     <div class="default-grid with-gap leftcol">
 
@@ -99,7 +99,7 @@
     <div class="sidenav"><nav class="sn-contents" aria-label="Secondary">
       <ul class="sidenav--list">
   <li>
-  <a lang="en" href="/WAI/planning/" aria-current="page" class="page-link"><span>Planning &amp; Policies</span></a></li><li>
+  <a lang="en" href="/WAI/planning/" aria-current="page" class="page-link"><span>Planning &amp; Policies</span></a></li><li>
   <a lang="en" href="/WAI/planning/interim-repairs/" class="page-link"><span>Approaches for Interim Repairs</span></a></li><li>
   <a lang="en" href="/WAI/planning-and-managing/" class="page-link"><span>Planning and Managing Accessibility</span></a><ul><li>
   <a lang="en" href="/WAI/planning-and-managing/initiate/" class="page-link"><span>Initiate</span></a></li><li>
@@ -164,6 +164,197 @@
   <dd>Describes how project managers, designers, and developers can better understand accessibility issues and implement more effective accessibility solutions.</dd>
 </dl>
 
+<details id="video-intro"><summary>
+
+    <p><strong><img src="/WAI/content-images/wai-plan-policies-overview/video-thumb-involving-users.png" alt="" class=" video tiny" /> Video: Involving Users in Web Accessibility Overview</strong></p>
+
+  </summary>
+  <div>
+
+    <div class="video-container" data-video-type="" dir="ltr">
+  <video preload="metadata" data-youtube-id="lIA2zTXq_ts" data-youtube-nocookie="true" data-description-audible="false" width="450"><track src="/WAI/involving-users-cc.vtt" label="" kind="captions" srclang="" /></video>
+</div>
+
+    <script src="/WAI/assets/ableplayer/thirdparty/modernizr.custom.js"></script>
+
+    <script src="/WAI/assets/scripts/jquery.min.js"></script>
+
+    <script src="/WAI/assets/ableplayer/thirdparty/js.cookie.js"></script>
+
+    <script src="/WAI/assets/ableplayer/build/ableplayer.min.js"></script>
+
+    <script>
+  var youTubeDataAPIKey = "AIzaSyCiZ9uToWu9jb7BTx47NtzCvmGGXKXp8nI";
+  var googleApiReady = false;
+  function initGoogleClientApi() {
+    googleApiReady = true;
+  }
+</script>
+
+    <script src="//apis.google.com/js/client.js?onload=initGoogleClientApi"></script>
+
+    <script>
+(function () {
+  'use strict';
+
+  var player1 = new AblePlayer($('[data-video-type=""] video'));
+  var player2 = new AblePlayer($('[data-video-type="audio-described"] video'));
+
+  function addclass(el, className) {
+    if (el.classList) {
+      el.classList.add(className);
+    } else {
+      if(! hasclass(el, className)){
+        el.className += ' ' + className;
+      }
+    }
+  }
+
+  function removeclass(el, className) {
+    if (el.classList) {
+      el.classList.remove(className);
+    } else {
+      el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+    }
+  }
+
+  function hasclass(el, className) {
+    if (el.classList) {
+      return el.classList.contains(className);
+    } else {
+      return new RegExp('(^| )' + className + '( |$)', 'gi').test(el.className);
+    }
+  }
+
+  var audiodescribed = document.querySelectorAll('[data-video-type="audio-described"]');
+
+  if (audiodescribed) {
+
+  Array.prototype.forEach.call(audiodescribed, function(el, i){
+    el.setAttribute('hidden', true);
+  });
+
+  var adbutton = document.querySelector('#audio_description_button');
+  adbutton.addEventListener('click', function(e){
+    player1.pauseMedia();
+    player2.pauseMedia();
+    if (e.target.getAttribute('data-status') == "audio-described") {
+      var videos = document.querySelectorAll('.video-container');
+      Array.prototype.forEach.call(videos, function(el, i){
+        el.removeAttribute("hidden");
+      });
+      var nonaudiodescribed = document.querySelectorAll('[data-video-type="audio-described"]');
+      Array.prototype.forEach.call(nonaudiodescribed, function(el, i){
+        el.setAttribute('hidden', true);
+      });
+      e.target.setAttribute('data-status', 'non-audio-described');
+      e.target.querySelector('span').innerHTML = 'Enable Audio Description';
+    } else {
+      var videos = document.querySelectorAll('.video-container');
+      Array.prototype.forEach.call(videos, function(el, i){
+        el.setAttribute('hidden', true);
+      });
+      var nonaudiodescribed = document.querySelectorAll('[data-video-type="audio-described"]');
+      Array.prototype.forEach.call(nonaudiodescribed, function(el, i){
+        el.removeAttribute("hidden");
+      });
+      e.target.setAttribute('data-status', 'audio-described');
+      e.target.querySelector('span').innerHTML = 'Disable Audio Description';
+    }
+  });
+
+  }
+
+}());
+</script>
+
+    <p><em>This video is also available on a W3C server: <a href="http://media.w3.org/wai/evaluation-intros/involving-users.mp4">Video: Involving Users in Web Accessibility Overview (file format: MP4, file size: 38MB)</a>.</em></p>
+
+    <details id="video-intro-transcript"><summary>
+
+        <p>Text Transcript with Description of Visuals</p>
+
+      </summary>
+  <div>
+
+        <table>
+  <thead>
+    <tr>
+      <th width="65%">Audio</th>
+      <th>Visual</th>
+    </tr>
+  </thead>
+<tbody>
+  <tr>
+    <td>Involving users in web accessibility. </td>
+    <td>Involving users in web accessibility.</td>
+  </tr>
+  <tr>
+    <td>Accessibility is about making your websites and applications usable by people with disabilities. That includes your customers, clients, employees, students, and others. </td>
+    <td>Accessibility. A person in front of a computer. Next to the computer the words: customers; clients; employees; and students.</td>
+  </tr>
+  <tr>
+    <td>Unfortunately many approach accessibility just as a checklist. This risks missing the real purpose of accessibility - the user experience. </td>
+    <td>A checklist replaces the person. The website on the screen crumbles. 4 people replace the computer and checklist.</td>
+  </tr>
+  <tr>
+    <td>Involving people with disabilities throughout your design and development process can be more effective and yield better results:
+      <ul>
+        <li> designers and developers learn how people with disabilities use the web, and understand assistive technologies and adaptive strategies they use;</li>
+      </ul></td>
+    <td>The group of people are surrounded by icons inserted in a development process cycle:  pen icon; coding icon; paintbrush icon; and a magnifying glass icon. 
+Smaller versions of these people are integrated in the process cycle.</td>
+  </tr>
+  <tr>
+    <td>(continued list)
+      <ul>
+        <li> the project team is more motivated when they understand how their work impacts people's lives;</li>
+      </ul></td>
+    <td>The process icons remain as the people are replaced with a motivation gauge.</td>
+  </tr>
+  <tr>
+    <td>(continued list)
+      <ul>
+        <li> development is more efficient, and your products work better for more people, with and without disability;</li>
+      </ul></td>
+    <td>The process icons remain as the gauge is replaced with a graph showing an upward trend in results. The chart is replaced with multiple people figures.</td>
+  </tr>
+  <tr>
+    <td>(continued list)
+      <ul>
+        <li> your resulting products are more inclusive and reach a bigger audience, have higher customer satisfaction, and demonstrate social responsibility.</li>
+      </ul></td>
+    <td>The people increase in numbers as the process icons are removed. A 5 star rating appears above the people to get all 5 stars filled. The people transition into a globe with a heart in the middle.</td>
+  </tr>
+  <tr>
+    <td>"Involving Users in Web Projects for Better, Easier Accessibility" provides guidance on project planning, and throughout the design and development process. </td>
+    <td>Involving Users in Web Projects for Better, Easier Accessibility. The development process cycle with icons appears.</td>
+  </tr>
+  <tr>
+    <td>"Involving Users in Evaluating Web Accessibility" provides more specific guidance on the evaluation stage of the process. </td>
+    <td>Involving Users in Evaluating Web Accessibility. The icons in the process cycle are focused in turn with a magnifying glass.</td>
+  </tr>
+  <tr>
+    <td>Together these resources help you focus on accessibility for your website users rather than focusing on technical requirements only. </td>
+    <td>Involving Users in Evaluating Web Accessibility and Involving Users in Web Projects for Better, Easier Accessibility. merge into a person in front of the computer. On the screen, passes and fails are marked.</td>
+  </tr>
+  <tr>
+    <td>Web accessibility: essential for some, useful for all </td>
+    <td>Icons around a computer: hand; eye; brain; ear; and mouth with sound waves.</td>
+  </tr>
+  <tr>
+    <td>For information on involving users in web accessibility, visit w3.o-r-g/W-A-I/involve-users. </td>
+    <td>Involving Users in Web Accessibility, W3C and Web Accessibility Initiative (WAI) logos.</td>
+  </tr>
+</tbody>
+</table>
+
+      </div>
+</details>
+
+  </div>
+</details>
+
 <h2 id="policy">Law and Policy Resources</h2>
 
 <p>The resources below help you find existing laws and policies, and develop a policy for your organization.</p>
@@ -176,6 +367,7 @@
   <dt><a href="/WAI/planning/statements/">Developing an Accessibility Statement</a></dt>
   <dd>Helps you create an accessibility statement for your own website, mobile application, or other digital content.</dd>
 </dl>
+
 
 
     <aside class="box box-icon box-space-above" id="helpimprove"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:wai@w3.org?subject=[en]%20Planning%20and%20Policies%20Overview">wai@w3.org</a> or via GitHub.</p>
@@ -193,7 +385,7 @@
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner">
-      <p><strong>Date:</strong> Updated 29 November 2018.</p> <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p> <p>Developed with input from the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
+      <p>Note about video description: The video on this page does not include synchronized audio description because the visuals only illustrate the audio and do not provide additional information. In this case, audio description would be more distracting than useful to most people, including people who cannot see the visuals. Description of visual information is integrated in the Text Transcript with Description of Visuals (“descriptive transcript”).</p <p><strong>Date:</strong> Updated 28 April 2020.</p> <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p> <p>Developed with input from the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Video developed by EOWG, with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> project funded by the European Commission (EC) under the Horizon 2020 program (Grant Agreement 822245). <a href="./acknowledgements/">Acknowledgements</a>.</p>
 </div>
   </footer>
   
@@ -229,9 +421,9 @@
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1589339017251690724"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1589393100343693820"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1589339017251690724"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1589393100343693820"></script>
 <script>
   svg4everybody();
 </script><script>
