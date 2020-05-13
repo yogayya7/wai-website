@@ -1,0 +1,562 @@
+[
+{
+    "title": "Australia",
+    "countryhref": "/WAI/policies/australia/",
+    "policyname": "Disability Discrimination Act 1992 (DDA)",
+    "policyhref": "/WAI/policies/australia/#disability-discrimination-act-1992-dda",
+    "url": "http://www.legislation.gov.au/Details/C2016C00763",
+    "enactdate": "1992",
+    "type": "Non-discrimination law",
+    "scope": [
+      "Public sector","Private sector"
+    ],
+    "webonly": "no",
+    "wcagver": "WCAG 2.0"
+  },
+{
+    "title": "Australia",
+    "countryhref": "/WAI/policies/australia/",
+    "policyname": "Procurement Standard Guidance",
+    "policyhref": "/WAI/policies/australia/#procurement-standard-guidance",
+    "url": "http://www.legislation.gov.au/Details/C2016C00763",
+    "enactdate": "2016",
+    "type": "Procurement recommendation",
+    "scope": [
+      "Government"
+    ],
+    "webonly": "no",
+    "wcagver": "WCAG 2.0"
+  },
+{
+    "title": "Canada",
+    "countryhref": "/WAI/policies/canada/",
+    "policyname": "Canadian Human Rights Act",
+    "policyhref": "/WAI/policies/canada/#canadian-human-rights-act",
+    "url": "http://laws-lois.justice.gc.ca/eng/acts/h-6/FullText.html",
+    "enactdate": "1985",
+    "type": "Non-discrimination law",
+    "scope": [
+      "Public sector","Private sector"
+    ],
+    "webonly": "no",
+    "wcagver": "None"
+  },
+{
+    "title": "Canada",
+    "countryhref": "/WAI/policies/canada/",
+    "policyname": "Policy on Communications and Federal Identity",
+    "policyhref": "/WAI/policies/canada/#policy-on-communications-and-federal-identity",
+    "url": "http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=30683",
+    "enactdate": "2016",
+    "type": "Mandatory policy",
+    "scope": [
+      "Government"
+    ],
+    "webonly": "no",
+    "wcagver": "WCAG 2.0"
+  },
+{
+    "title": "China",
+    "countryhref": "/WAI/policies/china/",
+    "policyname": "Law on the Protection of Persons with Disabilities 1990, as amended",
+    "policyhref": "/WAI/policies/china/#law-on-the-protection-of-persons-with-disabilities-1990-as-amended",
+    "url": "http://www.cdpf.org.cn/english/Resources/lawsregulations/201603/t20160303_542879.shtml",
+    "enactdate": "2008",
+    "type": "Accessibility law",
+    "scope": [
+      "Public sector","Private sector"
+    ],
+    "webonly": "no",
+    "wcagver": "None"
+  },
+{
+    "title": "China",
+    "countryhref": "/WAI/policies/china/",
+    "policyname": "Voluntary Web Accessibility Standard",
+    "policyhref": "/WAI/policies/china/#voluntary-web-accessibility-standard",
+    "url": "http://www.chinesestandard.net/default.aspx?PDF-English-ID=YD/T%201761-2008",
+    "enactdate": "2008",
+    "type": "Recommendation",
+    "scope": [
+      "Government"
+    ],
+    "webonly": "yes",
+    "wcagver": "WCAG 2.0 derivative"
+  },
+{
+    "title": "Denmark",
+    "countryhref": "/WAI/policies/denmark/",
+    "policyname": "Agreement on the use of open standards for software in the public sector",
+    "policyhref": "/WAI/policies/denmark/#agreement-on-the-use-of-open-standards-for-software-in-the-public-sector",
+    "url": "",
+    "enactdate": "2007",
+    "type": "Mandatory policy",
+    "scope": [
+      "Public sector"
+    ],
+    "webonly": "yes",
+    "wcagver": "WCAG 2.0"
+  },
+{
+    "title": "European Union",
+    "countryhref": "/WAI/policies/european-union/",
+    "policyname": "Web and Mobile Accessibility Directive",
+    "policyhref": "/WAI/policies/european-union/#web-and-mobile-accessibility-directive",
+    "url": "http://eur-lex.europa.eu/eli/dir/2016/2102/oj",
+    "enactdate": "2016",
+    "type": "Accessibility law",
+    "scope": [
+      "Public sector"
+    ],
+    "webonly": "no",
+    "wcagver": "WCAG 2.0"
+  },
+{
+    "title": "European Union",
+    "countryhref": "/WAI/policies/european-union/",
+    "policyname": "European Accessibility Act (proposed)",
+    "policyhref": "/WAI/policies/european-union/#european-accessibility-act-proposed",
+    "url": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM:2015:0615:FIN",
+    "enactdate": "draft",
+    "type": "Proposed law",
+    "scope": [
+      "Public sector","Private sector"
+    ],
+    "webonly": "no",
+    "wcagver": "WCAG 2.0 derivative"
+  },
+{
+    "title": "Finland",
+    "countryhref": "/WAI/policies/finland/",
+    "policyname": "Act on Electronic Services and Communication in the Public Sector",
+    "policyhref": "/WAI/policies/finland/#act-on-electronic-services-and-communication-in-the-public-sector",
+    "url": "http://www.finlex.fi/en/laki/kaannokset/2003/en20030013.pdf",
+    "enactdate": "2003",
+    "type": "Accessibility law",
+    "scope": [
+      "Government"
+    ],
+    "webonly": "no",
+    "wcagver": "None"
+  },
+{
+    "title": "France",
+    "countryhref": "/WAI/policies/france/",
+    "policyname": "Law N° 2005-102 Article 47",
+    "policyhref": "/WAI/policies/france/#law-n-2005-102-article-47",
+    "url": "",
+    "enactdate": "2005",
+    "type": "Accessibility law",
+    "scope": [
+      "Public sector"
+    ],
+    "webonly": "no",
+    "wcagver": "None"
+  },
+{
+    "title": "France",
+    "countryhref": "/WAI/policies/france/",
+    "policyname": "Order of 29 April 2015 on the general accessibility framework for public administrations",
+    "policyhref": "/WAI/policies/france/#order-of-29-april-2015-on-the-general-accessibility-framework-for-public-administrations",
+    "url": "",
+    "enactdate": "2015",
+    "type": "Accessibility law",
+    "scope": [
+      "Public sector"
+    ],
+    "webonly": "yes",
+    "wcagver": "WCAG 2.0 derivative"
+  },
+{
+    "title": "France",
+    "countryhref": "/WAI/policies/france/",
+    "policyname": "Law N° 2016-1321 Article 106",
+    "policyhref": "/WAI/policies/france/#law-n-2016-1321-article-106",
+    "url": "",
+    "enactdate": "2016",
+    "type": "Digital Governance law",
+    "scope": [
+      "Public sector","Private sector"
+    ],
+    "webonly": "no",
+    "wcagver": "None"
+  },
+{
+    "title": "Germany",
+    "countryhref": "/WAI/policies/germany/",
+    "policyname": "Act on Equal Opportunities for Disabled Persons of 2002",
+    "policyhref": "/WAI/policies/germany/#act-on-equal-opportunities-for-disabled-persons-of-2002",
+    "url": "",
+    "enactdate": "2002",
+    "type": "Non-discrimination law",
+    "scope": [
+      "Public sector","Private sector"
+    ],
+    "webonly": "no",
+    "wcagver": "None"
+  },
+{
+    "title": "Germany",
+    "countryhref": "/WAI/policies/germany/",
+    "policyname": "Federal Ordinance on Barrier-Free Information Technology",
+    "policyhref": "/WAI/policies/germany/#federal-ordinance-on-barrier-free-information-technology",
+    "url": "",
+    "enactdate": "2011",
+    "type": "Accessibility policy",
+    "scope": [
+      "Government"
+    ],
+    "webonly": "yes",
+    "wcagver": "WCAG 2.0 derivative"
+  },
+{
+    "title": "Hong Kong Special Administrative Region of the People&#39;s Republic of China",
+    "countryhref": "/WAI/policies/hong-kong-hksar/",
+    "policyname": "Guidelines on Dissemination of Information through Government Websites",
+    "policyhref": "/WAI/policies/hong-kong-hksar/#guidelines-on-dissemination-of-information-through-government-websites",
+    "url": "https://www.ogcio.gov.hk/en/community/web_accessibility/doc/disseminationguidelines.pdf",
+    "enactdate": "1999",
+    "type": "Mandatory policy",
+    "scope": [
+      "Government"
+    ],
+    "webonly": "no",
+    "wcagver": "WCAG 2.0"
+  },
+{
+    "title": "India",
+    "countryhref": "/WAI/policies/india/",
+    "policyname": "Rights of Persons with Disabilities Act, 2016 (RPD)",
+    "policyhref": "/WAI/policies/india/#rights-of-persons-with-disabilities-act-2016-rpd",
+    "url": "http://www.disabilityaffairs.gov.in/upload/uploadfiles/files/RPWD%20ACT%202016.pdf",
+    "enactdate": "2016",
+    "type": "Non-discrimination law",
+    "scope": [
+      "Public sector","Private sector"
+    ],
+    "webonly": "no",
+    "wcagver": "None"
+  },
+{
+    "title": "India",
+    "countryhref": "/WAI/policies/india/",
+    "policyname": "Guidelines for Indian Government Websites",
+    "policyhref": "/WAI/policies/india/#guidelines-for-indian-government-websites",
+    "url": "http://web.guidelines.gov.in",
+    "enactdate": "2009",
+    "type": "Mandatory policy",
+    "scope": [
+      "Government"
+    ],
+    "webonly": "no",
+    "wcagver": "WCAG 2.0"
+  },
+{
+    "title": "Ireland",
+    "countryhref": "/WAI/policies/ireland/",
+    "policyname": "The Disability Act, 2005",
+    "policyhref": "/WAI/policies/ireland/#the-disability-act-2005",
+    "url": "http://www.oireachtas.ie/documents/bills28/acts/2005/a1405.pdf",
+    "enactdate": "2005",
+    "type": "Accessibility law",
+    "scope": [
+      "Public sector"
+    ],
+    "webonly": "no",
+    "wcagver": "None"
+  },
+{
+    "title": "Ireland",
+    "countryhref": "/WAI/policies/ireland/",
+    "policyname": "Equal Status Acts 2000 to 2004",
+    "policyhref": "/WAI/policies/ireland/#equal-status-acts-2000-to-2004",
+    "url": "http://www.irishstatutebook.ie/eli/2000/act/8/enacted/en/html",
+    "enactdate": "2004",
+    "type": "Non-discrimination law",
+    "scope": [
+      "Public sector","Private sector"
+    ],
+    "webonly": "no",
+    "wcagver": "WCAG 2.0"
+  },
+{
+    "title": "Ireland",
+    "countryhref": "/WAI/policies/ireland/",
+    "policyname": "Employment Equality Acts 1998 and 2004",
+    "policyhref": "/WAI/policies/ireland/#employment-equality-acts-1998-and-2004",
+    "url": "http://www.irishstatutebook.ie/eli/1998/act/21/enacted/en/html",
+    "enactdate": "2004",
+    "type": "Non-discrimination law",
+    "scope": [
+      "Public sector","Private sector"
+    ],
+    "webonly": "no",
+    "wcagver": "None"
+  },
+{
+    "title": "Israel",
+    "countryhref": "/WAI/policies/israel/",
+    "policyname": "Equal Rights of Persons with Disabilities Act, as amended",
+    "policyhref": "/WAI/policies/israel/#equal-rights-of-persons-with-disabilities-act-as-amended",
+    "url": "http://www.justice.gov.il/En/Units/CommissionEqualRightsPersonsDisabilities/Equal-Rights-For-Persons-With-Disabilities-Law/Pages/Equal-Rights-For-Persons-With-Disabilities-Law.aspx",
+    "enactdate": "1998",
+    "type": "Non-discrimination law",
+    "scope": [
+      "Public sector","Private sector"
+    ],
+    "webonly": "no",
+    "wcagver": "WCAG 2.0"
+  },
+{
+    "title": "Italy",
+    "countryhref": "/WAI/policies/italy/",
+    "policyname": "Law 9 January 2004, n. 4 &quot;Provisions to support the access of disabled people to IT tools&quot; (Stanca Law)",
+    "policyhref": "/WAI/policies/italy/#law-9-january-2004-n-4-provisions-to-support-the-access-of-disabled-people-to-it-tools-stanca-law",
+    "url": "",
+    "enactdate": "2004",
+    "type": "Accessibility law",
+    "scope": [
+      "Public sector","Government"
+    ],
+    "webonly": "no",
+    "wcagver": "WCAG 2.0"
+  },
+{
+    "title": "Japan",
+    "countryhref": "/WAI/policies/japan/",
+    "policyname": "Basic Act on the Formation of an Advanced Information and Telecommunications Network Society",
+    "policyhref": "/WAI/policies/japan/#basic-act-on-the-formation-of-an-advanced-information-and-telecommunications-network-society",
+    "url": "http://japan.kantei.go.jp/it/it_basiclaw/it_basiclaw.html",
+    "enactdate": "2000",
+    "type": "Accessibility law",
+    "scope": [
+      "Public sector","Private sector"
+    ],
+    "webonly": "no",
+    "wcagver": "None"
+  },
+{
+    "title": "Netherlands",
+    "countryhref": "/WAI/policies/netherlands/",
+    "policyname": "Procurement Law 2012",
+    "policyhref": "/WAI/policies/netherlands/#procurement-law-2012",
+    "url": "",
+    "enactdate": "2016",
+    "type": "Procurement law",
+    "scope": [
+      "Government"
+    ],
+    "webonly": "no",
+    "wcagver": "WCAG 2.0"
+  },
+{
+    "title": "Netherlands",
+    "countryhref": "/WAI/policies/netherlands/",
+    "policyname": "Policy in the Netherlands",
+    "policyhref": "/WAI/policies/netherlands/#policy-in-the-netherlands",
+    "url": "",
+    "enactdate": "2016",
+    "type": "Mandatory policy",
+    "scope": [
+      "Government","Public sector"
+    ],
+    "webonly": "yes",
+    "wcagver": "WCAG 2.0"
+  },
+{
+    "title": "New Zealand",
+    "countryhref": "/WAI/policies/new-zealand/",
+    "policyname": "Human Rights Act 1993, including amendments",
+    "policyhref": "/WAI/policies/new-zealand/#human-rights-act-1993-including-amendments",
+    "url": "http://www.legislation.govt.nz/act/public/1993/0082/latest/DLM304212.html",
+    "enactdate": "1993",
+    "type": "Non-discrimination law",
+    "scope": [
+      "Public sector","Private sector"
+    ],
+    "webonly": "no",
+    "wcagver": "None"
+  },
+{
+    "title": "New Zealand",
+    "countryhref": "/WAI/policies/new-zealand/",
+    "policyname": "Online Practice Guidelines",
+    "policyhref": "/WAI/policies/new-zealand/#online-practice-guidelines",
+    "url": "https://www.ict.govt.nz/guidance-and-resources/government-online/online-practice-guidelines/",
+    "enactdate": "2013",
+    "type": "Mandatory policy",
+    "scope": [
+      "Government"
+    ],
+    "webonly": "yes",
+    "wcagver": "WCAG 2.0"
+  },
+{
+    "title": "Norway",
+    "countryhref": "/WAI/policies/norway/",
+    "policyname": "Regulations on universal design of ICT",
+    "policyhref": "/WAI/policies/norway/#regulations-on-universal-design-of-ict",
+    "url": "",
+    "enactdate": "2013",
+    "type": "Non-discrimination law",
+    "scope": [
+      "Public sector","Private sector"
+    ],
+    "webonly": "no",
+    "wcagver": "WCAG 2.0 derivative"
+  },
+{
+    "title": "Republic of Korea",
+    "countryhref": "/WAI/policies/republic-of-korea/",
+    "policyname": "Act on Welfare of Persons with Disabilities",
+    "policyhref": "/WAI/policies/republic-of-korea/#act-on-welfare-of-persons-with-disabilities",
+    "url": "",
+    "enactdate": "2008",
+    "type": "Non-discrimination law",
+    "scope": [
+      "Public sector","Private sector"
+    ],
+    "webonly": "no",
+    "wcagver": "WCAG 2.0 derivative"
+  },
+{
+    "title": "Sweden",
+    "countryhref": "/WAI/policies/sweden/",
+    "policyname": "Discrimination Act (2008:567)",
+    "policyhref": "/WAI/policies/sweden/#discrimination-act-2008-567",
+    "url": "http://www.government.se/information-material/2015/09/discrimination-act-2008567/",
+    "enactdate": "2008",
+    "type": "Non-discrimination law",
+    "scope": [
+      "Public sector","Private sector"
+    ],
+    "webonly": "no",
+    "wcagver": "None"
+  },
+{
+    "title": "Switzerland",
+    "countryhref": "/WAI/policies/switzerland/",
+    "policyname": "Federal Law on the Elimination of Inequalities for Persons with Disabilities, as amended",
+    "policyhref": "/WAI/policies/switzerland/#federal-law-on-the-elimination-of-inequalities-for-persons-with-disabilities-as-amended",
+    "url": "",
+    "enactdate": "2002",
+    "type": "Non-discrimination law",
+    "scope": [
+      "Public sector","Private sector"
+    ],
+    "webonly": "no",
+    "wcagver": "WCAG 2.0"
+  },
+{
+    "title": "Taiwan",
+    "countryhref": "/WAI/policies/taiwan/",
+    "policyname": "Web Accessibility Guidelines 2.0",
+    "policyhref": "/WAI/policies/taiwan/#web-accessibility-guidelines-2-0",
+    "url": "",
+    "enactdate": "2017",
+    "type": "Mandatory policy",
+    "scope": [
+      "Public sector"
+    ],
+    "webonly": "yes",
+    "wcagver": "WCAG 2.0 derivative"
+  },
+{
+    "title": "United Kingdom",
+    "countryhref": "/WAI/policies/united-kingdom/",
+    "policyname": "Equality Act 2010",
+    "policyhref": "/WAI/policies/united-kingdom/#equality-act-2010",
+    "url": "http://www.legislation.gov.uk/ukpga/2010/15/contents",
+    "enactdate": "2010",
+    "type": "Non-discrimination law",
+    "scope": [
+      "Public sector","Private sector"
+    ],
+    "webonly": "no",
+    "wcagver": "WCAG 2.0"
+  },
+{
+    "title": "United States",
+    "countryhref": "/WAI/policies/united-states/",
+    "policyname": "Section 508 of the US Rehabilitation Act of 1973, as amended",
+    "policyhref": "/WAI/policies/united-states/#section-508-of-the-us-rehabilitation-act-of-1973-as-amended",
+    "url": "https://www.section508.gov/section-508-of-the-rehabilitation-act",
+    "enactdate": "1998",
+    "type": "Procurement law, Accessibility law",
+    "scope": [
+      "Government"
+    ],
+    "webonly": "no",
+    "wcagver": "WCAG 2.0"
+  },
+{
+    "title": "United States",
+    "countryhref": "/WAI/policies/united-states/",
+    "policyname": "Americans with Disabilities Act of 1990 (ADA), as amended",
+    "policyhref": "/WAI/policies/united-states/#americans-with-disabilities-act-of-1990-ada-as-amended",
+    "url": "https://www.ada.gov/pubs/adastatute08.htm",
+    "enactdate": "2009",
+    "type": "Non-discrimination law",
+    "scope": [
+      "Public sector","Private sector"
+    ],
+    "webonly": "no",
+    "wcagver": "None"
+  },
+{
+    "title": "United States",
+    "countryhref": "/WAI/policies/united-states/",
+    "policyname": "Section 504 of the U.S. Rehabilitation Act of 1973, as amended",
+    "policyhref": "/WAI/policies/united-states/#section-504-of-the-u-s-rehabilitation-act-of-1973-as-amended",
+    "url": "https://www.dol.gov/oasam/regs/statutes/sec504.htm",
+    "enactdate": "1990",
+    "type": "Non-discrimination law",
+    "scope": [
+      "Public sector"
+    ],
+    "webonly": "no",
+    "wcagver": "WCAG 1.0 derivative"
+  },
+{
+    "title": "United States",
+    "countryhref": "/WAI/policies/united-states/",
+    "policyname": "Section 255 of the Telecommunications Act of 1996",
+    "policyhref": "/WAI/policies/united-states/#section-255-of-the-telecommunications-act-of-1996",
+    "url": "https://www.access-board.gov/the-board/laws/telecommunications-act",
+    "enactdate": "1996",
+    "type": "Accessibility law",
+    "scope": [
+      "Public sector","Private sector"
+    ],
+    "webonly": "no",
+    "wcagver": "None"
+  },
+{
+    "title": "United States",
+    "countryhref": "/WAI/policies/united-states/",
+    "policyname": "Air Carrier Access Act of 1986",
+    "policyhref": "/WAI/policies/united-states/#air-carrier-access-act-of-1986",
+    "url": "http://www.ecfr.gov/cgi-bin/text-idx?tpl=/ecfrbrowse/Title14/14cfr382_main_02.tpl",
+    "enactdate": "2013",
+    "type": "Non-discrimination law",
+    "scope": [
+      "Private sector"
+    ],
+    "webonly": "no",
+    "wcagver": "WCAG 2.0"
+  },
+{
+    "title": "United States",
+    "countryhref": "/WAI/policies/united-states/",
+    "policyname": "21st Century Communications and Video Accessibility Act of 2010 (CVAA)",
+    "policyhref": "/WAI/policies/united-states/#21st-century-communications-and-video-accessibility-act-of-2010-cvaa",
+    "url": "http://hraunfoss.fcc.gov/edocs_public/attachmatch/DOC-303939A1.doc",
+    "enactdate": "2010",
+    "type": "Accessibility law",
+    "scope": [
+      "Private sector"
+    ],
+    "webonly": "no",
+    "wcagver": "None"
+  }
+]
