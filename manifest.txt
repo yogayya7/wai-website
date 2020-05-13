@@ -223,6 +223,8 @@
 /business-case/fr.html
 /business-case/index.html
 /cognitive/index.html
+/content-images/EasyChecks/easy-checks-accessibility-cc.vtt
+/content-images/EasyChecks/video-thumb-easy-checks.png
 /content-images/home/wcag21-release.png
 /content-images/preliminary/alt-ff-missing.png
 /content-images/preliminary/alt-ie.png
@@ -297,6 +299,7 @@
 /content-images/wai-components/relate-example.jpg
 /content-images/wai-components/relate.png
 /content-images/wai-components/specs.png
+/content-images/wai-conformance-eval-overview/conformance-evaluation-cc.vtt
 /content-images/wai-eval-overview/conformance-evaluation-cc.vtt
 /content-images/wai-eval-overview/easy-checks-accessibility-cc.vtt
 /content-images/wai-eval-overview/evaluating-resources-overview-cc.vtt
@@ -307,6 +310,7 @@
 /content-images/wai-eval-overview/video-thumb-involving-users.png
 /content-images/wai-eval-overview/video-thumb-resources-overview.png
 /content-images/wai-eval-overview/video-thumb-tools.png
+/content-images/wai-eval-tools-overview/tools-for-evaluating-cc.vtt
 /content-images/wai-intro-accessibility/video-still-accessibility-intro-16-9.jpg
 /content-images/wai-intro-accessibility/video-still-accessibility-perspectives-16-9.jpg
 /content-images/wai-intro-aria/tree-nav.png
@@ -366,6 +370,8 @@
 /content-images/wai-news/2019-09-10-making-audio-and-video-media-accessible.png
 /content-images/wai-news/2019-12-03-w3cx-accessibility-intro.jpg
 /content-images/wai-people-use-web/social.png
+/content-images/wai-selecting-eval-tools/tools-for-evaluating-cc.vtt
+/content-images/wai-selecting-eval-tools/video-thumb-tools.png
 /content-images/wai-statements/accordion.js
 /content-images/wai-statements/generator.css
 /content-images/wai-statements/generator.js
@@ -400,6 +406,8 @@
 /content-images/wai-video-standards-and-benefits/show-language.nl.png
 /content-images/wai-video-standards-and-benefits/show-language.png
 /content-images/wai-video-standards-and-benefits/show-transcript.png
+/content-images/wai-wcag-em-overview/conformance-evaluation-cc.vtt
+/content-images/wai-wcag-em-overview/video-thumb-conformance.png
 /curricula/index.html
 /curricula/introduction-to-web-accessibility/business-case-and-benefits/index.html
 /curricula/introduction-to-web-accessibility/getting-started-with-accessibility/index.html
