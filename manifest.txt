@@ -297,6 +297,16 @@
 /content-images/wai-components/relate-example.jpg
 /content-images/wai-components/relate.png
 /content-images/wai-components/specs.png
+/content-images/wai-eval-overview/conformance-evaluation-cc.vtt
+/content-images/wai-eval-overview/easy-checks-accessibility-cc.vtt
+/content-images/wai-eval-overview/evaluating-resources-overview-cc.vtt
+/content-images/wai-eval-overview/involving-users-cc.vtt
+/content-images/wai-eval-overview/tools-for-evaluating-cc.vtt
+/content-images/wai-eval-overview/video-thumb-conformance.png
+/content-images/wai-eval-overview/video-thumb-easy-checks.png
+/content-images/wai-eval-overview/video-thumb-involving-users.png
+/content-images/wai-eval-overview/video-thumb-resources-overview.png
+/content-images/wai-eval-overview/video-thumb-tools.png
 /content-images/wai-intro-accessibility/video-still-accessibility-intro-16-9.jpg
 /content-images/wai-intro-accessibility/video-still-accessibility-perspectives-16-9.jpg
 /content-images/wai-intro-aria/tree-nav.png
