@@ -280,6 +280,8 @@
 /content-images/preliminary/zoom-100.png
 /content-images/preliminary/zoom-overlap.png
 /content-images/social-translations.png
+/content-images/wai-InvolveUsersEval/involving-users-cc.vtt
+/content-images/wai-InvolveUsersEval/video-thumb-involving-users.png
 /content-images/wai-about-w3c-process/cr.gif
 /content-images/wai-about-w3c-process/lcwd.gif
 /content-images/wai-about-w3c-process/pr.gif
@@ -370,6 +372,8 @@
 /content-images/wai-news/2019-09-10-making-audio-and-video-media-accessible.png
 /content-images/wai-news/2019-12-03-w3cx-accessibility-intro.jpg
 /content-images/wai-people-use-web/social.png
+/content-images/wai-plan-policies-overview/involving-users-cc.vtt
+/content-images/wai-plan-policies-overview/video-thumb-involving-users.png
 /content-images/wai-selecting-eval-tools/tools-for-evaluating-cc.vtt
 /content-images/wai-selecting-eval-tools/video-thumb-tools.png
 /content-images/wai-statements/accordion.js
