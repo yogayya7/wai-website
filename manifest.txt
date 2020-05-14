@@ -797,10 +797,10 @@
 /teach-advocate/contact-inaccessible-websites/index.html
 /teach-advocate/es.html
 /teach-advocate/index.html
+/test-evaluate/acknowledgements/index.html
 /test-evaluate/combined-expertise/index.html
 /test-evaluate/conformance/index.html
 /test-evaluate/conformance/wcag-em/index.html
-/test-evaluate/es.html
 /test-evaluate/index.html
 /test-evaluate/involving-users/index.html
 /test-evaluate/preliminary/index.html
