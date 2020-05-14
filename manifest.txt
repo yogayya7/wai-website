@@ -280,6 +280,8 @@
 /content-images/preliminary/zoom-100.png
 /content-images/preliminary/zoom-overlap.png
 /content-images/social-translations.png
+/content-images/wai-InvolveUsersAll/involving-users-cc.vtt
+/content-images/wai-InvolveUsersAll/video-thumb-involving-users.png
 /content-images/wai-InvolveUsersEval/involving-users-cc.vtt
 /content-images/wai-InvolveUsersEval/video-thumb-involving-users.png
 /content-images/wai-about-w3c-process/cr.gif
