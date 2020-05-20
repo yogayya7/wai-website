@@ -445,7 +445,6 @@
 /fundamentals/components/ko.html
 /fundamentals/index.html
 /index.html
-/manifest.txt
 /media/av/acknowledgements/index.html
 /media/av/av-content/index.html
 /media/av/captions/index.html
@@ -575,7 +574,9 @@
 /news/2020-02-27/wcag-2-2/index.html
 /news/2020-03-10/pronunciation/index.html
 /news/2020-03-19/RAUR/index.html
+/news/2020-05-14/eval-videos-gaad/index.html
 /news/21/index.html
+/news/22/index.html
 /news/3/index.html
 /news/4/index.html
 /news/5/index.html

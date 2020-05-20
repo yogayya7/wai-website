@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2020-05-14/eval-videos-gaad/",
+            "title": "New Videos Introduce Web Accessibility - Great for GAAD",
+            "summary": null,
+            "content_text": "The Accessibility Education and Outreach Working Group (EOWG) has published 5 short videos that introduce evaluation resources from the W3C Web Accessibility Initiative (WAI). The animated videos cover: Easy Checks — A First Review of Web Accessibility,  Evaluation Tools, Conformance Evaluation including the Report Tool, and Involving Users in Web Accessibility. Other WAI videos include: Video Introduction to Web Accessibility and W3C Standards and the Web Accessibility Perspectives videos that demonstrate how accessibility is essential for some and useful for all. These videos are particularly useful to share for Global Accessibility Awareness Day (GAAD) on 21 May 2020 — along with the free online course: Introduction to Web Accessibility.",
+            "content_html": "<p>The Accessibility Education and Outreach Working Group (<a href=\"https://www.w3.org/WAI/EO/\">EOWG</a>) has published <a href=\"https://www.w3.org/WAI/test-evaluate/\">5 short videos that introduce evaluation resources</a> from the W3C Web Accessibility Initiative (<a href=\"https://www.w3.org/WAI/\">WAI</a>). The animated videos cover: Easy Checks — A First Review of Web Accessibility,  Evaluation Tools, Conformance Evaluation including the Report Tool, and Involving Users in Web Accessibility. Other WAI videos include: <a href=\"https://www.w3.org/WAI/videos/standards-and-benefits/\">Video Introduction to Web Accessibility and W3C Standards</a> and the <a href=\"https://www.w3.org/WAI/perspective-videos/\">Web Accessibility Perspectives videos</a> that demonstrate how accessibility is essential for some and useful for all. These videos are particularly useful to share for Global Accessibility Awareness Day (<a href=\"https://globalaccessibilityawarenessday.org/\">GAAD</a>) on 21 May 2020 — along with the free online course: <a href=\"https://www.w3.org/blog/2019/12/free-online-course-introduction-to-web-accessibility/\">Introduction to Web Accessibility</a>.</p>",
+            "url": "https://www.w3.org/WAI/news/2020-05-14/eval-videos-gaad/",
+            
+            
+            
+            
+            
+            "date_published": "2020-05-14T00:00:00+00:00",
+            "date_modified": "2020-05-14T00:00:00+00:00",
+            
+                "author": 
+                "w3c_wai"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2020-03-19/RAUR/",
             "title": "For Review: RTC Accessibility User Requirements (RAUR) First Draft",
             "summary": null,
@@ -740,27 +761,6 @@
             
             "date_published": "2018-05-11T00:00:00+00:00",
             "date_modified": "2018-05-11T00:00:00+00:00",
-            
-                "author": 
-                "w3c_wai"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2018-03-29/cr-aria-graphics-module-a11y-api-mappings/",
-            "title": "Candidate Recommendation: WAI-ARIA Graphics Module and Graphics Accessibility API Mappings",
-            "summary": null,
-            "content_text": "The ARIA WG has published WAI-ARIA Graphics Module 1.0 and Graphics Accessibility API Mappings 1.0. The Working Group targets 27 April 2018 to complete the testing process and produce the implementation report.",
-            "content_html": "<p>The ARIA WG has published <a href=\"https://www.w3.org/TR/graphics-aria-1.0/\">WAI-ARIA Graphics Module 1.0</a> and <a href=\"https://www.w3.org/TR/graphics-aam-1.0/\">Graphics Accessibility API Mappings 1.0</a>. The Working Group targets <strong>27 April 2018</strong> to complete the testing process and produce the implementation report.</p>",
-            "url": "https://www.w3.org/WAI/news/2018-03-29/cr-aria-graphics-module-a11y-api-mappings/",
-            
-            
-            
-            
-            
-            "date_published": "2018-03-29T00:00:00+00:00",
-            "date_modified": "2018-03-29T00:00:00+00:00",
             
                 "author": 
                 "w3c_wai"
