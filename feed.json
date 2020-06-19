@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2020-06-19/conformance-challenges-approaches-for-mitigating/",
+            "title": "For Review: Challenges with Accessibility Guidelines Conformance and Testing, and Approaches for Mitigating Them",
+            "summary": null,
+            "content_text": "The Accessibility Guidelines Working Group (AG WG) has published an updated Working Draft of Challenges with Accessibility Guidelines Conformance and Testing, and Approaches for Mitigating Them. This document is part of work on future accessibility guidelines, including WCAG 3.0. It explores the challenges of evaluating a broad range of websites and applications for conformance to Web Content Accessibility Guidelines (WCAG), and explores approaches for mitigating these challenges. Please see the blog post for information on this document and questions for review: Challenges with Accessibility Guidelines Conformance and Testing, and Approaches for Mitigating Them - blog.",
+            "content_html": "<p>The Accessibility Guidelines Working Group (<a href=\"https://www.w3.org/WAI/GL/\">AG WG</a>) has published an updated <a href=\"https://www.w3.org/TR/2020/WD-accessibility-conformance-challenges-20200619/\">Working Draft of Challenges with Accessibility Guidelines Conformance and Testing, and Approaches for Mitigating Them</a>. This document is part of work on future accessibility guidelines, including WCAG 3.0. It explores the challenges of evaluating a broad range of websites and applications for conformance to Web Content Accessibility Guidelines (WCAG), and explores approaches for mitigating these challenges. Please see the blog post for information on this document and questions for review: <a href=\"https://www.w3.org/blog/2020/06/accessibility-conformance-challenges-draft/\">Challenges with Accessibility Guidelines Conformance and Testing, and Approaches for Mitigating Them - blog</a>.</p>",
+            "url": "https://www.w3.org/WAI/news/2020-06-19/conformance-challenges-approaches-for-mitigating/",
+            
+            
+            
+            
+            
+            "date_published": "2020-06-19T00:00:00+00:00",
+            "date_modified": "2020-06-19T00:00:00+00:00",
+            
+                "author": 
+                "w3c_wai"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2020-05-26/wcag-21-in-dutch/",
             "title": "WCAG 2.1 in Dutch: Authorized Translation Published",
             "summary": null,
@@ -740,27 +761,6 @@
             
             "date_published": "2018-07-03T00:00:00+00:00",
             "date_modified": "2018-07-03T00:00:00+00:00",
-            
-                "author": 
-                "w3c_wai"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2018-06-05/wcag-21-is-a-web-standard/",
-            "title": "WCAG 2.1 is a Web Standard “W3C Recommendation”",
-            "summary": null,
-            "content_text": "Web Content Accessibility Guidelines WCAG 2.1 was published today as a “W3C Recommendation” web standard. All requirements (“success criteria”) from 2.0 are included in 2.1. There are additional success criteria in 2.1. They are introduced in What’s New in WCAG 2.1. For information about this publication and next steps, see the blog post WCAG 2.1 is a W3C Recommendation.",
-            "content_html": "<p><img src=\"/WAI/content-images/wai-news/2018/wcag21-release.png\" alt=\"\" style=\"float:left; margin-right: 15px;\" />Web Content Accessibility Guidelines <a href=\"https://www.w3.org/TR/WCAG21\">WCAG 2.1</a> was published today as a “W3C Recommendation” web standard. All requirements (“success criteria”) from 2.0 are included in 2.1. There are additional success criteria in 2.1. They are introduced in <a href=\"https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/\">What’s New in WCAG 2.1</a>. For information about this publication and next steps, see the blog post <a href=\"https://www.w3.org/blog/2018/06/wcag21-rec/\">WCAG 2.1 is a W3C Recommendation</a>.</p>",
-            "url": "https://www.w3.org/WAI/news/2018-06-05/wcag-21-is-a-web-standard/",
-            
-            
-            
-            
-            
-            "date_published": "2018-06-05T00:00:00+00:00",
-            "date_modified": "2018-06-05T00:00:00+00:00",
             
                 "author": 
                 "w3c_wai"
