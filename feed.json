@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2020-07-17/content-usable/",
+            "title": "For Review: Making Content Usable for People with Cognitive and Learning Disabilities",
+            "summary": null,
+            "content_text": "The Draft Note \"Making Content Usable for People with Cognitive and Learning Disabilities\" is ready for review. This may be the final review before the document is published as a Working Group Note. We particularly request feedback on:  Are any user needs or patterns missing or incorrect?  Can any information be made easier to understand and implement?Comments are welcome through 4 September 2020.",
+            "content_html": "<p>The Draft Note <a href=\"https://www.w3.org/TR/coga-usable/\">\"Making Content Usable for People with Cognitive and Learning Disabilities\"</a> is ready for review. This may be the final review before the document is published as a Working Group Note. We particularly request feedback on:</p><ul>  <li>Are any user needs or patterns missing or incorrect?</li>  <li>Can any information be made easier to understand and implement?</li></ul><p>Comments are welcome through 4 September 2020.</p>",
+            "url": "https://www.w3.org/WAI/news/2020-07-17/content-usable/",
+            
+            
+            
+            
+            
+            "date_published": "2020-07-17T00:00:00+00:00",
+            "date_modified": "2020-07-17T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2020-06-29/ATAG-Report-Tool/",
             "title": "New Resource: Authoring Tool Accessibility Report Generator (keywords: CMS, ATAG, ...) ",
             "summary": null,
@@ -740,27 +761,6 @@
             
             "date_published": "2018-08-30T00:00:00+00:00",
             "date_modified": "2018-08-30T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2018-07-27/SIGACCESS-Award-2018/",
-            "title": "Judy Brewer Receives 2018 SIGACCESS Award",
-            "summary": null,
-            "content_text": "Judy Brewer, Web Accessibility Initiative (WAI) Director at  W3C/MIT, received the SIGACCESS Outstanding Contributions to Computing and Accessibility Award for 2018. The award recognizes individuals who have made significant and lasting contributions to the development of computing technologies that improve the accessibility of media and services to people with disabilities. For more information, see Judy Brewer: Outstanding Contribution Recipient 2018 and SIGACCESS Outstanding Contribution Award.",
-            "content_html": "<p>Judy Brewer, Web Accessibility Initiative (WAI) Director at  W3C/MIT, received the <abbr title=\"Special Interest Group on Accessible Computing\">SIGACCESS</abbr> Outstanding Contributions to Computing and Accessibility Award for 2018. The award recognizes individuals who have made significant and lasting contributions to the development of computing technologies that improve the accessibility of media and services to people with disabilities. For more information, see <a href=\"http://www.sigaccess.org/2018/07/judy-brewer-outstanding-contribution-recipient-2018/\">Judy Brewer: Outstanding Contribution Recipient 2018</a> and <a href=\"http://www.sigaccess.org/category/news/awards/outstanding-contribution/\">SIGACCESS Outstanding Contribution Award</a>.</p>",
-            "url": "https://www.w3.org/WAI/news/2018-07-27/SIGACCESS-Award-2018/",
-            
-            
-            
-            
-            
-            "date_published": "2018-07-27T00:00:00+00:00",
-            "date_modified": "2018-07-27T00:00:00+00:00",
             
                 "author": 
                 "W3C Web Accessibility Initiative (WAI)"
