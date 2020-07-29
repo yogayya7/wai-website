@@ -20,6 +20,7 @@
 /about/projects/wai-tools/second-open-meeting/index.html
 /about/projects/wai-tools/symposium/index.html
 /about/projects/wai-tools/symposium/record/index.html
+/about/projects/wai-tools/third-open-meeting/index.html
 /about/sponsoring/index.html
 /about/translating/index.html
 /about/using-wai-material/index.html
@@ -445,6 +446,7 @@
 /fundamentals/components/ko.html
 /fundamentals/index.html
 /index.html
+/manifest.txt
 /media/av/acknowledgements/index.html
 /media/av/av-content/index.html
 /media/av/captions/index.html
