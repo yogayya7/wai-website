@@ -1,3 +1,6 @@
+/WCAG2A-Conformance.html
+/WCAG2AA-Conformance.html
+/WCAG2AAA-Conformance.html
 /about/accessibility-statement/index.html
 /about/contacting/index.html
 /about/groups/agwg/index.html
