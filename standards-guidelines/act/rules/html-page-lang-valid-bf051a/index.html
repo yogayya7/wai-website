@@ -9,17 +9,17 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1596590653337505383";
+      element.src = "/WAI/assets/scripts/main.js?1596726985412581730";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1596590653337505383">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1596726985412581730">
 
-<title> HTML page language is valid | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title> HTML page lang attribute has valid language tag | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.6.1 -->
 <meta name="generator" content="Jekyll v3.8.7" />
-<meta property="og:title" content="HTML page language is valid" />
+<meta property="og:title" content="HTML page lang attribute has valid language tag" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="The Website of the World Wide Web Consortium’s Web Accessibility Initiative." />
@@ -28,18 +28,18 @@
 <meta property="og:url" content="https://www.w3.org/WAI/standards-guidelines/act/rules/html-page-lang-valid-bf051a/" />
 <meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="HTML page language is valid" />
+<meta property="twitter:title" content="HTML page lang attribute has valid language tag" />
 <meta name="twitter:site" content="@w3c_wai" />
 <meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
 <script type="application/ld+json">
-{"description":"The Website of the World Wide Web Consortium’s Web Accessibility Initiative.","@type":"WebPage","headline":"HTML page language is valid","url":"https://www.w3.org/WAI/standards-guidelines/act/rules/html-page-lang-valid-bf051a/","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"@context":"https://schema.org"}</script>
+{"description":"The Website of the World Wide Web Consortium’s Web Accessibility Initiative.","@type":"WebPage","headline":"HTML page lang attribute has valid language tag","url":"https://www.w3.org/WAI/standards-guidelines/act/rules/html-page-lang-valid-bf051a/","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
 
   <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
 </head>
 
-  <body id="top" class="page-html-page-language-is-valid ">
+  <body id="top" class="page-html-page-lang-attribute-has-valid-language-tag ">
     <nav aria-label="Skip Link and Language Selector" id="controls" class="default-grid">
   <ul>
         <li><a href="#main">Skip to Content</a></li>
@@ -124,13 +124,13 @@
 
   <main id="main" lang="en">
     <header>
-      <h1>HTML page language is valid</h1></header><dl>
+      <h1>HTML page lang attribute has valid language tag</h1></header><dl>
   <dt>Rule Type:</dt>
   <dd>atomic</dd>
   <dt>Rule ID:</dt>
   <dd>bf051a</dd>
   <dt>Last modified:</dt>
-  <dd>March 5, 2020</dd>
+  <dd>June 9, 2020</dd>
   <dt>Accessibility Requirements Mapping</dt>
   <dd><a href="https://www.w3.org/TR/WCAG21/#language-of-page">3.1.1 Language of Page (Level A)</a>
     <ul>
@@ -162,7 +162,7 @@
 
 <h2 id="description">Description</h2>
 
-<p>This rule checks that the <code class="highlighter-rouge">lang</code> attribute of the root element of an HTML page has a valid primary language subtag.</p>
+<p>This rule checks that the <code class="highlighter-rouge">lang</code> attribute of the root element of an HTML page has a language tag with a known primary language subtag.</p>
 
 <h2 id="applicability">Applicability</h2>
 
@@ -178,7 +178,7 @@
 
 <h2 id="expectation">Expectation</h2>
 
-<p>For each test target, the <code class="highlighter-rouge">lang</code> attribute has a <a href="#valid-language-subtag" title="Definition of valid language subtag">valid language subtag</a>.</p>
+<p>For each test target, the <code class="highlighter-rouge">lang</code> attribute has a [valid language tag][].</p>
 
 <h2 id="assumptions">Assumptions</h2>
 
@@ -187,10 +187,10 @@
     <p>The language of the page can be set by other methods than the <code class="highlighter-rouge">lang</code> attribute, for example using HTTP headers or the <code class="highlighter-rouge">meta</code> element. These methods are not supported by all assistive technologies. This rule assumes that these other methods are insufficient to satisfying <a href="https://www.w3.org/TR/WCAG21/#language-of-page">Success Criterion 3.1.1: Language of Page</a>.</p>
   </li>
   <li>
-    <p>This rule assumes that user agents and assistive technologies can programmatically determine <a href="#valid-language-subtag">valid language subtags</a> even if these do not conform to the <a href="https://tools.ietf.org/html/bcp47#section-2.1">BCP 47</a> syntax.</p>
+    <p>This rule assumes that user agents and assistive technologies can programmatically determine <a href="#valid-language-tag">valid language tags</a> even if these do not conform to the <a href="https://tools.ietf.org/html/bcp47#section-2.1">BCP 47</a> syntax.</p>
   </li>
   <li>
-    <p>This rule assumes that <a href="https://tools.ietf.org/html/bcp47#section-2.2.8">grandfathered tags</a> are not used as these will not be recognized as <a href="#valid-language-subtag">valid language subtags</a>.</p>
+    <p>This rule assumes that <a href="https://tools.ietf.org/html/bcp47#section-2.2.8">grandfathered tags</a> are not used as these will not be recognized as <a href="#valid-language-tag">valid language tags</a>.</p>
   </li>
 </ul>
 
@@ -213,14 +213,14 @@
 
 <h4 id="passed-example-1">Passed Example 1</h4>
 
-<p>This <code class="highlighter-rouge">html</code> element has a <code class="highlighter-rouge">lang</code> attribute whose value is a <a href="#valid-language-subtag" title="Definition of valid language subtag">valid</a> <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtag</a>.</p>
+<p>This <code class="highlighter-rouge">html</code> element has a <code class="highlighter-rouge">lang</code> attribute whose value is a [valid]<a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">valid language tag</a>[].</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"fr"</span><span class="nt">&gt;&lt;/html&gt;</span>
 </code></pre></div></div>
 
 <h4 id="passed-example-2">Passed Example 2</h4>
 
-<p>This <code class="highlighter-rouge">html</code> element has a <code class="highlighter-rouge">lang</code> attribute value that is a <a href="#valid-language-subtag" title="Definition of valid language subtag">valid language subtag</a> even though the <a href="https://tools.ietf.org/html/bcp47#section-2.2.4" title="Definition of region subtag">region subtag</a> is not.</p>
+<p>This <code class="highlighter-rouge">html</code> element has a <code class="highlighter-rouge">lang</code> attribute value that is a [valid language tag][] even though the <a href="https://tools.ietf.org/html/bcp47#section-2.2.4" title="Definition of region subtag">region subtag</a> is not.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en-US-GB"</span><span class="nt">&gt;&lt;/html&gt;</span>
 </code></pre></div></div>
@@ -229,14 +229,14 @@
 
 <h4 id="failed-example-1">Failed Example 1</h4>
 
-<p>This <code class="highlighter-rouge">html</code> element has a <code class="highlighter-rouge">lang</code> attribute whose value is not a <a href="#valid-language-subtag" title="Definition of valid language subtag">valid language subtag</a>.</p>
+<p>This <code class="highlighter-rouge">html</code> element has a <code class="highlighter-rouge">lang</code> attribute whose value is not a [valid language tag][].</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"em-US"</span><span class="nt">&gt;&lt;/html&gt;</span>
 </code></pre></div></div>
 
 <h4 id="failed-example-2">Failed Example 2</h4>
 
-<p>This <code class="highlighter-rouge">html</code> element has a <code class="highlighter-rouge">lang</code> attribute whose value is not a <a href="#valid-language-subtag" title="Definition of valid language subtag">valid language subtag</a>.</p>
+<p>This <code class="highlighter-rouge">html</code> element has a <code class="highlighter-rouge">lang</code> attribute whose value is not a [valid language tag][].</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"#1"</span><span class="nt">&gt;&lt;/html&gt;</span>
 </code></pre></div></div>
@@ -266,7 +266,7 @@
 
 <p><strong>Note:</strong> Implementers using the <a href="https://www.w3.org/TR/EARL10-Schema/">EARL10-Schema</a> can express the outcome with the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a>. In addition to <code class="highlighter-rouge">passed</code>, <code class="highlighter-rouge">failed</code> and <code class="highlighter-rouge">inapplicable</code>, EARL 1.0 also defined an <code class="highlighter-rouge">incomplete</code> outcome. While this cannot be the outcome of an ACT Rule when applied in its entirety, it often happens that rules are only partially evaluated. For example, when applicability was automated, but the expectations have to be evaluated manually. Such “interim” results can be expressed with the incomplete outcome.</p>
 
-<h3 id="valid-language-subtag">Valid Language Subtag</h3>
+<h3 id="valid-language-tag">Valid Language Tag</h3>
 
 <p>A language tag consists of a <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtag</a> from the <a href="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">language subtag registry</a>, optionally followed by a hyphen (<code class="highlighter-rouge">-</code>) and any sequence of characters.</p>
 
@@ -276,21 +276,31 @@
 
 <h3 id="authors">Authors</h3>
 
+<p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules community group</a>, by:</p>
+
 <ul>
   <li><a href="https://github.com/jkodu">Jey Nandakumar</a></li>
+  <li><a href="https://github.com/annika-FTB">Annika Nietzio</a> (previous author)</li>
 </ul>
 
-<h3 id="previous-authors">Previous Authors</h3>
+<p>Developed with the support of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>.</p>
+
+<h2 id="changelog">Changelog</h2>
 
 <ul>
-  <li><a href="https://github.com/annika-FTB">Annika Nietzio</a></li>
+  <li><strong>June 9th</strong>
+    <ul>
+      <li>Rename definition “valid language subtag” to “valid language tag”</li>
+      <li>Clarify the title</li>
+    </ul>
+  </li>
 </ul>
 
 
 
-    <aside class="box box-icon box-space-above" id="helpimprove"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:wai-eo-editors@w3.org?subject=[en]%20HTML%20page%20language%20is%20valid">wai-eo-editors@w3.org</a> or via GitHub.</p>
+    <aside class="box box-icon box-space-above" id="helpimprove"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:wai-eo-editors@w3.org?subject=[en]%20HTML%20page%20lang%20attribute%20has%20valid%20language%20tag">wai-eo-editors@w3.org</a> or via GitHub.</p>
 <div class="button-group">
-    <a href="mailto:wai-eo-editors@w3.org?subject=[en]%20HTML%20page%20language%20is%20valid&body=[put%20comment%20here...]" class="button"><span>E-mail</span></a>
+    <a href="mailto:wai-eo-editors@w3.org?subject=[en]%20HTML%20page%20lang%20attribute%20has%20valid%20language%20tag&body=[put%20comment%20here...]" class="button"><span>E-mail</span></a>
     <a href="https://github.com/w3c/wcag-act-rules/edit/master/content/html-page-lang-valid-bf051a.md"  class="button"><span>Fork &amp; Edit on GitHub</span></a><a href="https://github.com/w3c/wcag-act-rules/issues/new" class="button"><span>New GitHub Issue</span></a>
 </div></div></aside>
 
@@ -333,9 +343,9 @@
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1596590653337505383"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1596726985412581730"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1596590653337505383"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1596726985412581730"></script>
 <script>
   svg4everybody();
 </script><script>

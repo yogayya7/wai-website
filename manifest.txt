@@ -449,7 +449,6 @@
 /fundamentals/components/ko.html
 /fundamentals/index.html
 /index.html
-/manifest.txt
 /media/av/acknowledgements/index.html
 /media/av/av-content/index.html
 /media/av/captions/index.html
@@ -759,6 +758,7 @@
 /sitemap.xml
 /sitemap/index.html
 /standards-guidelines/act/index.html
+/standards-guidelines/act/rules/explicit-SVG-image-has-name-7d6734/index.html
 /standards-guidelines/act/rules/html-page-has-title-2779a5/index.html
 /standards-guidelines/act/rules/html-page-lang-b5c3f8/index.html
 /standards-guidelines/act/rules/html-page-lang-valid-bf051a/index.html
