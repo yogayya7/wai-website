@@ -9,16 +9,16 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1596737906612587188";
+      element.src = "/WAI/assets/scripts/main.js?1597088287530706931";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1596737906612587188">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1597088287530706931">
 
 <title> svg element with explicit role has accessible name | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.6.1 -->
-<meta name="generator" content="Jekyll v3.8.7" />
+<meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="svg element with explicit role has accessible name" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
 <meta property="og:locale" content="en" />
@@ -110,9 +110,9 @@
       <li><strong>Required for conformance</strong> to WCAG 2.0 and above on level A and above</li>
       <li><a href="#outcome">Outcome</a> mapping:
         <ul>
-          <li>Any <code class="highlighter-rouge">failed</code> outcomes: success criterion is not satisfied</li>
-          <li>All <code class="highlighter-rouge">passed</code> outcomes: success criterion needs further testing</li>
-          <li>An <code class="highlighter-rouge">inapplicable</code> outcome: success criterion needs further testing</li>
+          <li>Any <code class="language-plaintext highlighter-rouge">failed</code> outcomes: success criterion is not satisfied</li>
+          <li>All <code class="language-plaintext highlighter-rouge">passed</code> outcomes: success criterion needs further testing</li>
+          <li>An <code class="language-plaintext highlighter-rouge">inapplicable</code> outcome: success criterion needs further testing</li>
         </ul>
       </li>
     </ul>
@@ -128,9 +128,9 @@
 
 <h2 id="applicability">Applicability</h2>
 
-<p>The rule applies to any element in the <a href="https://www.w3.org/2000/svg">SVG</a> namespace with an <a href="#explicit-role" title="Definition of explicit role">explicit semantic role</a> of either <code class="highlighter-rouge">img</code>, <code class="highlighter-rouge">graphics-document</code>, <code class="highlighter-rouge">graphics-symbol</code>, that is <a href="#included-in-the-accessibility-tree" title="Definition of Included in the accessibility tree">included in the accessibility tree</a>.</p>
+<p>The rule applies to any element in the <a href="https://www.w3.org/2000/svg">SVG</a> namespace with an <a href="#explicit-role" title="Definition of explicit role">explicit semantic role</a> of either <code class="language-plaintext highlighter-rouge">img</code>, <code class="language-plaintext highlighter-rouge">graphics-document</code>, <code class="language-plaintext highlighter-rouge">graphics-symbol</code>, that is <a href="#included-in-the-accessibility-tree" title="Definition of Included in the accessibility tree">included in the accessibility tree</a>.</p>
 
-<p><strong>Note:</strong> The <a href="https://www.w3.org/TR/svg-aam-1.0/#include_elements">SVG Accessibility API Mappings, Section 5.1.2 Including Elements in the Accessibility Tree</a> specifies that many elements in the SVG namespace are purely presentational and should not be included in the accessibility tree unless indicated otherwise through the use of text alternative content, an explicit WAI ARIA role, or a valid <code class="highlighter-rouge">tabindex</code> attribute.</p>
+<p><strong>Note:</strong> The <a href="https://www.w3.org/TR/svg-aam-1.0/#include_elements">SVG Accessibility API Mappings, Section 5.1.2 Including Elements in the Accessibility Tree</a> specifies that many elements in the SVG namespace are purely presentational and should not be included in the accessibility tree unless indicated otherwise through the use of text alternative content, an explicit WAI ARIA role, or a valid <code class="language-plaintext highlighter-rouge">tabindex</code> attribute.</p>
 
 <h2 id="expectation">Expectation</h2>
 
@@ -144,13 +144,13 @@
 
 <h2 id="accessibility-support">Accessibility Support</h2>
 
-<p>The <a href="https://www.w3.org/TR/html-aam-1.0/#html-element-role-mappings">HTML Accessibility API Mappings</a> specify that the <code class="highlighter-rouge">&lt;svg&gt;</code> element has an implicit role of <code class="highlighter-rouge">graphics-document</code>. However browser support for the <code class="highlighter-rouge">graphics-document</code> role and the <a href="https://www.w3.org/TR/svg-aam-1.0">SVG Accessibility API Mappings</a> is inconsistent.</p>
+<p>The <a href="https://www.w3.org/TR/html-aam-1.0/#html-element-role-mappings">HTML Accessibility API Mappings</a> specify that the <code class="language-plaintext highlighter-rouge">&lt;svg&gt;</code> element has an implicit role of <code class="language-plaintext highlighter-rouge">graphics-document</code>. However browser support for the <code class="language-plaintext highlighter-rouge">graphics-document</code> role and the <a href="https://www.w3.org/TR/svg-aam-1.0">SVG Accessibility API Mappings</a> is inconsistent.</p>
 
 <p>This rule is limited to the explicit use of roles, as a clear indication that content should convey meaning, until the <a href="https://www.w3.org/TR/svg-aam-1.0">SVG Accessibility API Mappings</a> is more stable and browser support is more consistent.</p>
 
-<p>Browser and assistive technology support for SVG <code class="highlighter-rouge">&lt;title&gt;</code> and <code class="highlighter-rouge">&lt;desc&gt;</code> elements is currently inconsistent. Using WAI ARIA in combination with the <code class="highlighter-rouge">img</code> role for non-decorative <code class="highlighter-rouge">&lt;svg&gt;</code> elements significantly improves accessibility browser support.</p>
+<p>Browser and assistive technology support for SVG <code class="language-plaintext highlighter-rouge">&lt;title&gt;</code> and <code class="language-plaintext highlighter-rouge">&lt;desc&gt;</code> elements is currently inconsistent. Using WAI ARIA in combination with the <code class="language-plaintext highlighter-rouge">img</code> role for non-decorative <code class="language-plaintext highlighter-rouge">&lt;svg&gt;</code> elements significantly improves accessibility browser support.</p>
 
-<p>Until browser support for the <a href="https://www.w3.org/TR/svg-aam-1.0">SVG Accessibility API Mappings</a> is more consistent it is recommended to explicitly remove decorative <code class="highlighter-rouge">&lt;svg&gt;</code> elements from the accessibility tree.</p>
+<p>Until browser support for the <a href="https://www.w3.org/TR/svg-aam-1.0">SVG Accessibility API Mappings</a> is more consistent it is recommended to explicitly remove decorative <code class="language-plaintext highlighter-rouge">&lt;svg&gt;</code> elements from the accessibility tree.</p>
 
 <h2 id="background">Background</h2>
 
@@ -169,7 +169,7 @@
 
 <h4 id="passed-example-1">Passed Example 1</h4>
 
-<p>This <code class="highlighter-rouge">svg</code> element has an <a href="#explicit-role" title="Definition of explicit role">explicit role</a> of <code class="highlighter-rouge">img</code> and an <a href="#accessible-name" title="Definition of accessible name">accessible name</a> from the <code class="highlighter-rouge">title</code> element that is not empty.</p>
+<p>This <code class="language-plaintext highlighter-rouge">svg</code> element has an <a href="#explicit-role" title="Definition of explicit role">explicit role</a> of <code class="language-plaintext highlighter-rouge">img</code> and an <a href="#accessible-name" title="Definition of accessible name">accessible name</a> from the <code class="language-plaintext highlighter-rouge">title</code> element that is not empty.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>How many circles are there?<span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/2000/svg"</span> <span class="na">role=</span><span class="s">"img"</span> <span class="na">width=</span><span class="s">"100"</span> <span class="na">height=</span><span class="s">"100"</span><span class="nt">&gt;</span>
@@ -180,7 +180,7 @@
 
 <h4 id="passed-example-2">Passed Example 2</h4>
 
-<p>This <code class="highlighter-rouge">circle</code> element has an <a href="#explicit-role" title="Definition of explicit role">explicit role</a> of <code class="highlighter-rouge">graphics-symbol</code> and an <a href="#accessible-name" title="Definition of accessible name">accessible name</a> from the <code class="highlighter-rouge">aria-label</code> attribute that is not empty.</p>
+<p>This <code class="language-plaintext highlighter-rouge">circle</code> element has an <a href="#explicit-role" title="Definition of explicit role">explicit role</a> of <code class="language-plaintext highlighter-rouge">graphics-symbol</code> and an <a href="#accessible-name" title="Definition of accessible name">accessible name</a> from the <code class="language-plaintext highlighter-rouge">aria-label</code> attribute that is not empty.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>How many circles are there?<span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">"https://www.w3.org/2000/svg"</span><span class="nt">&gt;</span>
@@ -199,7 +199,7 @@
 
 <h4 id="passed-example-3">Passed Example 3</h4>
 
-<p>This <code class="highlighter-rouge">svg</code> element has an <a href="#explicit-role" title="Definition of explicit role">explicit role</a> of <code class="highlighter-rouge">graphics-document</code> and an <a href="#accessible-name" title="Definition of accessible name">accessible name</a> from the <code class="highlighter-rouge">title</code> element that is not empty.</p>
+<p>This <code class="language-plaintext highlighter-rouge">svg</code> element has an <a href="#explicit-role" title="Definition of explicit role">explicit role</a> of <code class="language-plaintext highlighter-rouge">graphics-document</code> and an <a href="#accessible-name" title="Definition of accessible name">accessible name</a> from the <code class="language-plaintext highlighter-rouge">title</code> element that is not empty.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>How many circles are there?<span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/2000/svg"</span> <span class="na">role=</span><span class="s">"graphics-document"</span> <span class="na">width=</span><span class="s">"100"</span> <span class="na">height=</span><span class="s">"100"</span><span class="nt">&gt;</span>
@@ -212,7 +212,7 @@
 
 <h4 id="failed-example-1">Failed Example 1</h4>
 
-<p>This <code class="highlighter-rouge">svg</code> element has an <a href="#explicit-role" title="Definition of explicit role">explicit role</a> of <code class="highlighter-rouge">img</code> but has no <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
+<p>This <code class="language-plaintext highlighter-rouge">svg</code> element has an <a href="#explicit-role" title="Definition of explicit role">explicit role</a> of <code class="language-plaintext highlighter-rouge">img</code> but has no <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>How many circles are there?<span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/2000/svg"</span> <span class="na">role=</span><span class="s">"img"</span><span class="nt">&gt;</span>
@@ -222,7 +222,7 @@
 
 <h4 id="failed-example-2">Failed Example 2</h4>
 
-<p>This <code class="highlighter-rouge">svg</code> element has an <a href="#explicit-role" title="Definition of explicit role">explicit role</a> of <code class="highlighter-rouge">img</code>, is included in the accessibility tree, but it has no <a href="#accessible-name" title="Definition of accessible name">accessible name</a> because the <code class="highlighter-rouge">title</code> element is empty.</p>
+<p>This <code class="language-plaintext highlighter-rouge">svg</code> element has an <a href="#explicit-role" title="Definition of explicit role">explicit role</a> of <code class="language-plaintext highlighter-rouge">img</code>, is included in the accessibility tree, but it has no <a href="#accessible-name" title="Definition of accessible name">accessible name</a> because the <code class="language-plaintext highlighter-rouge">title</code> element is empty.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>How many circles are there?<span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/2000/svg"</span> <span class="na">role=</span><span class="s">"img"</span><span class="nt">&gt;</span>
@@ -233,7 +233,7 @@
 
 <h4 id="failed-example-3">Failed Example 3</h4>
 
-<p>This <code class="highlighter-rouge">circle</code> element has an <a href="#explicit-role" title="Definition of explicit role">explicit role</a> of <code class="highlighter-rouge">graphics-symbol</code> but has no <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
+<p>This <code class="language-plaintext highlighter-rouge">circle</code> element has an <a href="#explicit-role" title="Definition of explicit role">explicit role</a> of <code class="language-plaintext highlighter-rouge">graphics-symbol</code> but has no <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>How many circles are there?<span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/2000/svg"</span><span class="nt">&gt;</span>
@@ -245,7 +245,7 @@
 
 <h4 id="inapplicable-example-1">Inapplicable Example 1</h4>
 
-<p>Neither the <code class="highlighter-rouge">svg</code> element nor the <code class="highlighter-rouge">circle</code> element has any of the three <a href="#explicit-role" title="Definition of explicit role">explicit roles</a> of <code class="highlighter-rouge">img</code>, <code class="highlighter-rouge">graphics-document</code>, <code class="highlighter-rouge">graphics-symbol</code>.</p>
+<p>Neither the <code class="language-plaintext highlighter-rouge">svg</code> element nor the <code class="language-plaintext highlighter-rouge">circle</code> element has any of the three <a href="#explicit-role" title="Definition of explicit role">explicit roles</a> of <code class="language-plaintext highlighter-rouge">img</code>, <code class="language-plaintext highlighter-rouge">graphics-document</code>, <code class="language-plaintext highlighter-rouge">graphics-symbol</code>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/2000/svg"</span><span class="nt">&gt;</span>
 	<span class="nt">&lt;circle</span> <span class="na">cx=</span><span class="s">"50"</span> <span class="na">cy=</span><span class="s">"50"</span> <span class="na">r=</span><span class="s">"40"</span> <span class="na">fill=</span><span class="s">"yellow"</span><span class="nt">&gt;&lt;/circle&gt;</span>
@@ -254,7 +254,7 @@
 
 <h4 id="inapplicable-example-2">Inapplicable Example 2</h4>
 
-<p>This <code class="highlighter-rouge">svg</code> element and its descendants are not <a href="#included-in-the-accessibility-tree" title="Definition of Included in the accessibility tree">included in the accessibility tree</a> because of the <code class="highlighter-rouge">aria-hidden</code> attribute.</p>
+<p>This <code class="language-plaintext highlighter-rouge">svg</code> element and its descendants are not <a href="#included-in-the-accessibility-tree" title="Definition of Included in the accessibility tree">included in the accessibility tree</a> because of the <code class="language-plaintext highlighter-rouge">aria-hidden</code> attribute.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/2000/svg"</span> <span class="na">role=</span><span class="s">"img"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
 	<span class="nt">&lt;circle</span> <span class="na">cx=</span><span class="s">"50"</span> <span class="na">cy=</span><span class="s">"50"</span> <span class="na">r=</span><span class="s">"40"</span> <span class="na">fill=</span><span class="s">"yellow"</span><span class="nt">&gt;&lt;/circle&gt;</span>
@@ -263,7 +263,7 @@
 
 <h4 id="inapplicable-example-3">Inapplicable Example 3</h4>
 
-<p>This <code class="highlighter-rouge">circle</code> element has an <a href="#explicit-role" title="Definition of explicit role">explicit role</a> that is neither <code class="highlighter-rouge">img</code>, <code class="highlighter-rouge">graphics-document</code> nor <code class="highlighter-rouge">graphics-symbol</code>.</p>
+<p>This <code class="language-plaintext highlighter-rouge">circle</code> element has an <a href="#explicit-role" title="Definition of explicit role">explicit role</a> that is neither <code class="language-plaintext highlighter-rouge">img</code>, <code class="language-plaintext highlighter-rouge">graphics-document</code> nor <code class="language-plaintext highlighter-rouge">graphics-symbol</code>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/2000/svg"</span><span class="nt">&gt;</span>
 	<span class="nt">&lt;circle</span> <span class="na">role=</span><span class="s">"graphics-object"</span> <span class="na">cx=</span><span class="s">"50"</span> <span class="na">cy=</span><span class="s">"50"</span> <span class="na">r=</span><span class="s">"40"</span> <span class="na">fill=</span><span class="s">"yellow"</span><span class="nt">&gt;&lt;/circle&gt;</span>
@@ -280,7 +280,7 @@
 
 <p>For native markup languages, such as HTML and SVG, additional information on how to calculate the accessible name can be found in <a href="https://www.w3.org/TR/html-aam/#accessible-name-and-description-computation">HTML Accessibility API Mappings 1.0, Accessible Name and Description Computation (working draft)</a> and <a href="https://www.w3.org/TR/svg-aam/#mapping_additional">SVG Accessibility API Mappings, Name and Description (working draft)</a>.</p>
 
-<p><strong>Note:</strong> As per the <a href="https://www.w3.org/TR/accname">accessible name and description computation</a>, each element always has an accessible name. When no accessible name is provided, the element will nonetheless be assigned an empty (<code class="highlighter-rouge">""</code>) one.</p>
+<p><strong>Note:</strong> As per the <a href="https://www.w3.org/TR/accname">accessible name and description computation</a>, each element always has an accessible name. When no accessible name is provided, the element will nonetheless be assigned an empty (<code class="language-plaintext highlighter-rouge">""</code>) one.</p>
 
 <p><strong>Note:</strong> As per the <a href="https://www.w3.org/TR/accname">accessible name and description computation</a>, accessible names are <a href="https://www.w3.org/TR/accname-1.1/#terminology">flat string</a> trimmed of leading and trailing whitespace. Notably, it is not possible for a non-empty accessible name to be composed only of whitespace since these must be trimmed.</p>
 
@@ -288,15 +288,15 @@
 
 <ul>
   <li>Because the <a href="https://www.w3.org/TR/accname">accessible name and description computation</a> is not clear about which whitespace are considered, browsers behave differently when trimming and flattening the accessible name. For example, some browsers completely trim non-breaking spaces while some keep them in the accessible name.</li>
-  <li>There exists a popular browser which does not perform the same trimming and flattening depending whether the accessible name comes from content, an <code class="highlighter-rouge">aria-label</code> attribute, or an <code class="highlighter-rouge">alt</code> attribute.</li>
-  <li>There exists a popular browser which assign no accessible name (<code class="highlighter-rouge">null</code>) when none is provided, instead of assigned an empty accessible name (<code class="highlighter-rouge">""</code>).</li>
+  <li>There exists a popular browser which does not perform the same trimming and flattening depending whether the accessible name comes from content, an <code class="language-plaintext highlighter-rouge">aria-label</code> attribute, or an <code class="language-plaintext highlighter-rouge">alt</code> attribute.</li>
+  <li>There exists a popular browser which assign no accessible name (<code class="language-plaintext highlighter-rouge">null</code>) when none is provided, instead of assigned an empty accessible name (<code class="language-plaintext highlighter-rouge">""</code>).</li>
 </ul>
 
 <h4 id="examples-accessible-name">Examples (Accessible name)</h4>
 
 <p><strong>Note:</strong> The examples presented here are non-normative and not testable. They serve to illustrate some common pitfalls about the definition and to help implementers of ACT rules understand it.</p>
 
-<p>The <code class="highlighter-rouge">input</code> elements have an accessible name of, respectively, “Billing Name” and “Billing Address”. These accessible names are given by the <code class="highlighter-rouge">aria-labelledby</code> attributes and associated elements.</p>
+<p>The <code class="language-plaintext highlighter-rouge">input</code> elements have an accessible name of, respectively, “Billing Name” and “Billing Address”. These accessible names are given by the <code class="language-plaintext highlighter-rouge">aria-labelledby</code> attributes and associated elements.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"myBillingId"</span><span class="nt">&gt;</span>Billing<span class="nt">&lt;/div&gt;</span>
 
@@ -310,42 +310,42 @@
 <span class="nt">&lt;/div&gt;</span>
 </code></pre></div></div>
 
-<p>This <code class="highlighter-rouge">button</code> element has an accessible name of “Share ACT rules” given by its <code class="highlighter-rouge">aria-label</code> attribute.</p>
+<p>This <code class="language-plaintext highlighter-rouge">button</code> element has an accessible name of “Share ACT rules” given by its <code class="language-plaintext highlighter-rouge">aria-label</code> attribute.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;button</span> <span class="na">aria-label=</span><span class="s">"Share ACT rules"</span><span class="nt">&gt;</span>Share<span class="nt">&lt;/button&gt;</span>
 </code></pre></div></div>
 
-<p>This <code class="highlighter-rouge">img</code> element has an accessible name of “ACT rules” given by its <code class="highlighter-rouge">alt</code> attribute.</p>
+<p>This <code class="language-plaintext highlighter-rouge">img</code> element has an accessible name of “ACT rules” given by its <code class="language-plaintext highlighter-rouge">alt</code> attribute.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"#"</span> <span class="na">alt=</span><span class="s">"ACT rules"</span> <span class="nt">/&gt;</span>
 </code></pre></div></div>
 
-<p>The <code class="highlighter-rouge">button</code> element has an accessible name of “Share ACT rules” given by the enclosing <code class="highlighter-rouge">label</code> element (implicit <code class="highlighter-rouge">label</code>)</p>
+<p>The <code class="language-plaintext highlighter-rouge">button</code> element has an accessible name of “Share ACT rules” given by the enclosing <code class="language-plaintext highlighter-rouge">label</code> element (implicit <code class="language-plaintext highlighter-rouge">label</code>)</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;label&gt;</span>Share ACT rules<span class="nt">&lt;button&gt;</span>Share<span class="nt">&lt;/button&gt;&lt;/label&gt;</span>
 </code></pre></div></div>
 
-<p>The <code class="highlighter-rouge">button</code> element has an accessible name of “Share ACT rules” given by the associated <code class="highlighter-rouge">label</code> element (explicit <code class="highlighter-rouge">label</code>)</p>
+<p>The <code class="language-plaintext highlighter-rouge">button</code> element has an accessible name of “Share ACT rules” given by the associated <code class="language-plaintext highlighter-rouge">label</code> element (explicit <code class="language-plaintext highlighter-rouge">label</code>)</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"act-rules"</span><span class="nt">&gt;</span>Share ACT rules<span class="nt">&lt;/label&gt;&lt;button</span> <span class="na">id=</span><span class="s">"act-rules"</span><span class="nt">&gt;&lt;/button&gt;</span>
 </code></pre></div></div>
 
-<p>This <code class="highlighter-rouge">a</code> element has an accessible name of “ACT rules” given from its content. Note that not all <a href="#semantic-role">semantic roles</a> allow <a href="https://www.w3.org/TR/wai-aria/#namefromcontent">name from content</a>.</p>
+<p>This <code class="language-plaintext highlighter-rouge">a</code> element has an accessible name of “ACT rules” given from its content. Note that not all <a href="#semantic-role">semantic roles</a> allow <a href="https://www.w3.org/TR/wai-aria/#namefromcontent">name from content</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://act-rules.github.io/"</span><span class="nt">&gt;</span>ACT rules<span class="nt">&lt;/a&gt;</span>
 </code></pre></div></div>
 
-<p>This <code class="highlighter-rouge">span</code> element has an empty accessible name (<code class="highlighter-rouge">""</code>) because <code class="highlighter-rouge">span</code> does not allow <a href="https://www.w3.org/TR/wai-aria/#namefromcontent">name from content</a>.</p>
+<p>This <code class="language-plaintext highlighter-rouge">span</code> element has an empty accessible name (<code class="language-plaintext highlighter-rouge">""</code>) because <code class="language-plaintext highlighter-rouge">span</code> does not allow <a href="https://www.w3.org/TR/wai-aria/#namefromcontent">name from content</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;span&gt;</span>ACT rules<span class="nt">&lt;/span&gt;</span>
 </code></pre></div></div>
 
-<p>This <code class="highlighter-rouge">span</code> element has an empty accessible name (<code class="highlighter-rouge">""</code>) because <code class="highlighter-rouge">span</code> is not a <a href="https://html.spec.whatwg.org/#category-label">labelable element</a>.</p>
+<p>This <code class="language-plaintext highlighter-rouge">span</code> element has an empty accessible name (<code class="language-plaintext highlighter-rouge">""</code>) because <code class="language-plaintext highlighter-rouge">span</code> is not a <a href="https://html.spec.whatwg.org/#category-label">labelable element</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;label&gt;</span>ACT rules<span class="nt">&lt;span&gt;&lt;/span&gt;&lt;/label&gt;</span>
 </code></pre></div></div>
 
-<p><strong>Note:</strong> When the same element can have an accessible name from several sources, the order of precedence is: <code class="highlighter-rouge">aria-labelledby</code>, <code class="highlighter-rouge">aria-label</code>, own attributes, <code class="highlighter-rouge">label</code> element, name from content. The examples here are listed in the same order.</p>
+<p><strong>Note:</strong> When the same element can have an accessible name from several sources, the order of precedence is: <code class="language-plaintext highlighter-rouge">aria-labelledby</code>, <code class="language-plaintext highlighter-rouge">aria-label</code>, own attributes, <code class="language-plaintext highlighter-rouge">label</code> element, name from content. The examples here are listed in the same order.</p>
 
 <p><strong>Note:</strong> For more examples of accessible name computation, including many tricky cases, check the <a href="https://www.w3.org/wiki/AccName_1.1_Testable_Statements">Accessible Name Testable Statements</a>.</p>
 
@@ -359,7 +359,7 @@
 
 <h4 id="accessibility-support-explicit-role">Accessibility Support (Explicit role)</h4>
 
-<p>Some browsers and assistive technologies treat the tokens of the <code class="highlighter-rouge">role</code> attribute as case-sensitive. Unless lowercase letters are used for the value of the <code class="highlighter-rouge">role</code> attribute, not all user agents will be able to interpret the tokens correctly. <a href="https://www.w3.org/TR/html-aria/">ARIA in HTML (working draft)</a> also specifies that <a href="https://www.w3.org/TR/html-aria/#case-sensitivity">authors must use lowercase letters for the <code class="highlighter-rouge">role</code> and <code class="highlighter-rouge">aria-*</code> attributes</a>.</p>
+<p>Some browsers and assistive technologies treat the tokens of the <code class="language-plaintext highlighter-rouge">role</code> attribute as case-sensitive. Unless lowercase letters are used for the value of the <code class="language-plaintext highlighter-rouge">role</code> attribute, not all user agents will be able to interpret the tokens correctly. <a href="https://www.w3.org/TR/html-aria/">ARIA in HTML (working draft)</a> also specifies that <a href="https://www.w3.org/TR/html-aria/#case-sensitivity">authors must use lowercase letters for the <code class="language-plaintext highlighter-rouge">role</code> and <code class="language-plaintext highlighter-rouge">aria-*</code> attributes</a>.</p>
 
 <h3 id="included-in-the-accessibility-tree">Included in the accessibility tree</h3>
 
@@ -367,39 +367,39 @@
 
 <p>The general rules for when elements are included in the accessibility tree are defined in the <a href="https://www.w3.org/TR/core-aam/">core accessibility API mappings</a>. For native markup languages, such as HTML and SVG, additional rules for when elements are included in the accessibility tree can be found in the <a href="https://www.w3.org/TR/html-aam/">HTML accessibility API mappings (working draft)</a> and the <a href="https://www.w3.org/TR/svg-aam/">SVG accessibility API mappings (working draft)</a>.</p>
 
-<p><strong>Note:</strong> Users of assistive technologies might still be able to interact with elements that are not included in the accessibility tree. An example of this is a <a href="#focusable">focusable</a> element with an <code class="highlighter-rouge">aria-hidden</code> attribute with a value of <code class="highlighter-rouge">true</code>. Such an element could still be interacted with using sequential keyboard navigation regardless of the assistive technologies used, even though the element would not be included in the accessibility tree.</p>
+<p><strong>Note:</strong> Users of assistive technologies might still be able to interact with elements that are not included in the accessibility tree. An example of this is a <a href="#focusable">focusable</a> element with an <code class="language-plaintext highlighter-rouge">aria-hidden</code> attribute with a value of <code class="language-plaintext highlighter-rouge">true</code>. Such an element could still be interacted with using sequential keyboard navigation regardless of the assistive technologies used, even though the element would not be included in the accessibility tree.</p>
 
 <h4 id="examples-included-in-the-accessibility-tree">Examples (included in the accessibility tree)</h4>
 
 <p><strong>Note:</strong> The examples presented here are non-normative and not testable. They serve to illustrate some common pitfalls about the definition and to help implementers of ACT rules understand it.</p>
 
-<p>This <code class="highlighter-rouge">span</code> element is included in the accessibility tree (by default, elements are included in the accessibility tree).</p>
+<p>This <code class="language-plaintext highlighter-rouge">span</code> element is included in the accessibility tree (by default, elements are included in the accessibility tree).</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;span&gt;</span>ACT rules<span class="nt">&lt;/span&gt;</span>
 </code></pre></div></div>
 
-<p>This <code class="highlighter-rouge">span</code> element is not included in the accessibility tree because it is hidden to everybody by the CSS property.</p>
+<p>This <code class="language-plaintext highlighter-rouge">span</code> element is not included in the accessibility tree because it is hidden to everybody by the CSS property.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">"display:none"</span><span class="nt">&gt;</span>ACT rules<span class="nt">&lt;/span&gt;</span>
 </code></pre></div></div>
 
-<p>This <code class="highlighter-rouge">span</code> element is not included in the accessibility tree because it is explicitly removed by the <code class="highlighter-rouge">aria-hidden</code> attribute.</p>
+<p>This <code class="language-plaintext highlighter-rouge">span</code> element is not included in the accessibility tree because it is explicitly removed by the <code class="language-plaintext highlighter-rouge">aria-hidden</code> attribute.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;span</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>ACT rules<span class="nt">&lt;/span&gt;</span>
 </code></pre></div></div>
 
-<p>This <code class="highlighter-rouge">span</code> element is positioned off screen, hence is not <a href="#visible">visible</a>, but is nonetheless included in the accessibility tree.</p>
+<p>This <code class="language-plaintext highlighter-rouge">span</code> element is positioned off screen, hence is not <a href="#visible">visible</a>, but is nonetheless included in the accessibility tree.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">"position: absolute; top:-9999em"</span><span class="nt">&gt;</span>ACT rules<span class="nt">&lt;/span&gt;</span>
 </code></pre></div></div>
 
-<p>Although the <code class="highlighter-rouge">span</code> element with an <code class="highlighter-rouge">id</code> of “label” is not itself included in the accessibility tree, it still provides an <a href="#accessible-name">accessible name</a> to the other <code class="highlighter-rouge">span</code>, via the <code class="highlighter-rouge">aria-labelledby</code> attribute. Thus, it is still indirectly exposed to users of assistive technologies. Removing an element from the accessibility tree is not enough to remove all accessibility concerns from it since it can still be indirectly exposed.</p>
+<p>Although the <code class="language-plaintext highlighter-rouge">span</code> element with an <code class="language-plaintext highlighter-rouge">id</code> of “label” is not itself included in the accessibility tree, it still provides an <a href="#accessible-name">accessible name</a> to the other <code class="language-plaintext highlighter-rouge">span</code>, via the <code class="language-plaintext highlighter-rouge">aria-labelledby</code> attribute. Thus, it is still indirectly exposed to users of assistive technologies. Removing an element from the accessibility tree is not enough to remove all accessibility concerns from it since it can still be indirectly exposed.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;span</span> <span class="na">id=</span><span class="s">"label"</span> <span class="na">style=</span><span class="s">"display:none"</span><span class="nt">&gt;</span>ACT rules<span class="nt">&lt;/span&gt;</span>
 <span class="nt">&lt;span</span> <span class="na">aria-labelledby=</span><span class="s">"label"</span><span class="nt">&gt;</span>Accessibility Conformance Testing rules<span class="nt">&lt;/span&gt;</span>
 </code></pre></div></div>
 
-<p>Although this <code class="highlighter-rouge">input</code> element is not included in the accessibility tree, it is still <a href="#focusable">focusable</a>, hence users of assistive technologies can still interact with it by sequential keyboard navigation. This may result in confusing situations for such users (and is in direct violation of <a href="https://www.w3.org/TR/using-aria/#fourth">the fourth rule of ARIA (working draft)</a>).</p>
+<p>Although this <code class="language-plaintext highlighter-rouge">input</code> element is not included in the accessibility tree, it is still <a href="#focusable">focusable</a>, hence users of assistive technologies can still interact with it by sequential keyboard navigation. This may result in confusing situations for such users (and is in direct violation of <a href="https://www.w3.org/TR/using-aria/#fourth">the fourth rule of ARIA (working draft)</a>).</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span> <span class="na">name=</span><span class="s">"fname"</span> <span class="nt">/&gt;</span>
 </code></pre></div></div>
@@ -414,9 +414,9 @@
   <li><strong>Failed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> does not meet all expectations</li>
 </ul>
 
-<p><strong>Note:</strong> A rule has one <code class="highlighter-rouge">passed</code> or <code class="highlighter-rouge">failed</code> outcome for every <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. When there are no test targets the rule has one inapplicable outcome. This means that each <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> will have one or more outcomes.</p>
+<p><strong>Note:</strong> A rule has one <code class="language-plaintext highlighter-rouge">passed</code> or <code class="language-plaintext highlighter-rouge">failed</code> outcome for every <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. When there are no test targets the rule has one inapplicable outcome. This means that each <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> will have one or more outcomes.</p>
 
-<p><strong>Note:</strong> Implementers using the <a href="https://www.w3.org/TR/EARL10-Schema/">EARL10-Schema</a> can express the outcome with the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a>. In addition to <code class="highlighter-rouge">passed</code>, <code class="highlighter-rouge">failed</code> and <code class="highlighter-rouge">inapplicable</code>, EARL 1.0 also defined an <code class="highlighter-rouge">incomplete</code> outcome. While this cannot be the outcome of an ACT Rule when applied in its entirety, it often happens that rules are only partially evaluated. For example, when applicability was automated, but the expectations have to be evaluated manually. Such “interim” results can be expressed with the incomplete outcome.</p>
+<p><strong>Note:</strong> Implementers using the <a href="https://www.w3.org/TR/EARL10-Schema/">EARL10-Schema</a> can express the outcome with the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a>. In addition to <code class="language-plaintext highlighter-rouge">passed</code>, <code class="language-plaintext highlighter-rouge">failed</code> and <code class="language-plaintext highlighter-rouge">inapplicable</code>, EARL 1.0 also defined an <code class="language-plaintext highlighter-rouge">incomplete</code> outcome. While this cannot be the outcome of an ACT Rule when applied in its entirety, it often happens that rules are only partially evaluated. For example, when applicability was automated, but the expectations have to be evaluated manually. Such “interim” results can be expressed with the incomplete outcome.</p>
 
 <h2 id="acknowledgements">Acknowledgements</h2>
 
@@ -477,9 +477,9 @@
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1596737906612587188"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1597088287530706931"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1596737906612587188"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1597088287530706931"></script>
 <script>
   svg4everybody();
 </script><script>

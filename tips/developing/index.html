@@ -9,16 +9,16 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1596737906612587188";
+      element.src = "/WAI/assets/scripts/main.js?1597088287530706931";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1596737906612587188">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1597088287530706931">
 
-<title> Developing for Web Accessibility – Tips for Getting Started | Web Accessibility Initiative (WAI) | W3C</title><link rel="stylesheet" href="/WAI/tips/css/tips.css?1596737906612587188"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<meta name="generator" content="Jekyll v3.8.7" />
+<title> Developing for Web Accessibility – Tips for Getting Started | Web Accessibility Initiative (WAI) | W3C</title><link rel="stylesheet" href="/WAI/tips/css/tips.css?1597088287530706931"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="Developing for Web Accessibility – Tips for Getting Started" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
 <meta property="og:locale" content="en" />
@@ -28,13 +28,13 @@
 <meta property="og:url" content="https://www.w3.org/WAI/tips/developing/" />
 <meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-08-06T18:18:26+00:00" />
+<meta property="article:published_time" content="2020-08-10T19:38:07+00:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:title" content="Developing for Web Accessibility – Tips for Getting Started" />
 <meta name="twitter:site" content="@w3c_wai" />
 <meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
 <script type="application/ld+json">
-{"description":"Summary","@type":"BlogPosting","headline":"Developing for Web Accessibility – Tips for Getting Started","url":"https://www.w3.org/WAI/tips/developing/","dateModified":"2020-08-06T18:18:26+00:00","datePublished":"2020-08-06T18:18:26+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.w3.org/WAI/tips/developing/"},"author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"@context":"https://schema.org"}</script>
+{"description":"Summary","@type":"BlogPosting","headline":"Developing for Web Accessibility – Tips for Getting Started","url":"https://www.w3.org/WAI/tips/developing/","dateModified":"2020-08-10T19:38:07+00:00","datePublished":"2020-08-10T19:38:07+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.w3.org/WAI/tips/developing/"},"author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
 
@@ -158,7 +158,7 @@
 
 <h2 id="associate-a-label-with-every-form-control">Associate a label with every form control</h2>
 
-<p>Use a <code class="highlighter-rouge">for</code> attribute on the <code class="highlighter-rouge">&lt;label&gt;</code> element linked to the <code class="highlighter-rouge">id</code> attribute of the form element, or using <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> attributes. In specific situations it may be acceptable to hide <code class="highlighter-rouge">&lt;label&gt;</code> elements visually, but in most cases labels are needed to help all readers understand the required input.</p>
+<p>Use a <code class="language-plaintext highlighter-rouge">for</code> attribute on the <code class="language-plaintext highlighter-rouge">&lt;label&gt;</code> element linked to the <code class="language-plaintext highlighter-rouge">id</code> attribute of the form element, or using <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> attributes. In specific situations it may be acceptable to hide <code class="language-plaintext highlighter-rouge">&lt;label&gt;</code> elements visually, but in most cases labels are needed to help all readers understand the required input.</p>
 
 <aside class="box box-example"><header class="box-h  box-h-example"> Example: Using <code>for</code> and <code>id</code> attributes</header><div class="box-i">
 
@@ -198,7 +198,7 @@
 
 <h2 id="include-alternative-text-for-images">Include alternative text for images</h2>
 
-<p>Ensure that alternative text for images is added to all informational and functional images. Use empty alternative text, <code class="highlighter-rouge">alt=""</code> for decorative images, or include them in the CSS instead. Text alternatives are usually provided by those responsible for written content.</p>
+<p>Ensure that alternative text for images is added to all informational and functional images. Use empty alternative text, <code class="language-plaintext highlighter-rouge">alt=""</code> for decorative images, or include them in the CSS instead. Text alternatives are usually provided by those responsible for written content.</p>
 
 <aside class="box box-simple"><header class="box-h  box-h-simple"> More Information</header><div class="box-i">
 
@@ -224,7 +224,7 @@
 
 <h2 id="identify-page-language-and-language-changes">Identify page language and language changes</h2>
 
-<p>Indicate the primary language of every page by using the <code class="highlighter-rouge">lang</code> attribute in the <code class="highlighter-rouge">html</code> tag, for example <code class="highlighter-rouge"><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span></code>. Use the <code class="highlighter-rouge">lang</code> attribute on specific elements when the language of the element differs from the rest of the page.</p>
+<p>Indicate the primary language of every page by using the <code class="language-plaintext highlighter-rouge">lang</code> attribute in the <code class="language-plaintext highlighter-rouge">html</code> tag, for example <code class="language-plaintext highlighter-rouge">&lt;html lang="en"&gt;</code>. Use the <code class="language-plaintext highlighter-rouge">lang</code> attribute on specific elements when the language of the element differs from the rest of the page.</p>
 
 <aside class="box box-simple"><header class="box-h  box-h-simple"> More Information</header><div class="box-i">
 
@@ -246,7 +246,7 @@
 
 <h2 id="use-mark-up-to-convey-meaning-and-structure">Use mark-up to convey meaning and structure</h2>
 
-<p>Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additional elements, such as <code class="highlighter-rouge">&lt;nav&gt;</code> and <code class="highlighter-rouge">&lt;aside&gt;</code>, to better structure your content. <abbr>WAI-ARIA</abbr> roles can provide additional meaning, for example, using <code class="highlighter-rouge">role="search"</code> to identify search functionality. Work with designers and content writers to agree on meanings and then use them consistently.</p>
+<p>Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additional elements, such as <code class="language-plaintext highlighter-rouge">&lt;nav&gt;</code> and <code class="language-plaintext highlighter-rouge">&lt;aside&gt;</code>, to better structure your content. <abbr>WAI-ARIA</abbr> roles can provide additional meaning, for example, using <code class="language-plaintext highlighter-rouge">role="search"</code> to identify search functionality. Work with designers and content writers to agree on meanings and then use them consistently.</p>
 
 <aside class="box box-example"><header class="box-h  box-h-example"> Example: Using HTML to provide structure and meaning</header><div class="box-i">
 
@@ -560,7 +560,7 @@
 
 <h2 id="provide-meaning-for-non-standard-interactive-elements">Provide meaning for non-standard interactive elements</h2>
 
-<p>Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provide information on function and state for custom widgets, such as accordions and custom-made buttons. For example, <code class="highlighter-rouge">role="navigation"</code> and <code class="highlighter-rouge">aria-expanded="true"</code>. Additional code is required to implement the behavior of such widgets, such as expanding and collapsing content or how the widget responds to keyboard events.</p>
+<p>Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provide information on function and state for custom widgets, such as accordions and custom-made buttons. For example, <code class="language-plaintext highlighter-rouge">role="navigation"</code> and <code class="language-plaintext highlighter-rouge">aria-expanded="true"</code>. Additional code is required to implement the behavior of such widgets, such as expanding and collapsing content or how the widget responds to keyboard events.</p>
 
 <aside class="box box-example"><header class="box-h  box-h-example"> Example: Menu function and state identified using WAI-ARIA</header><div class="box-i">
 
@@ -610,7 +610,7 @@
 
 <h2 id="ensure-that-all-interactive-elements-are-keyboard-accessible">Ensure that all interactive elements are keyboard accessible</h2>
 
-<p>Think about keyboard access, especially when developing interactive elements, such as menus, mouseover information, collapsable accordions, or media players. Use <code class="highlighter-rouge">tabindex="0"</code> to add an element that does not normally receive focus, such as <code class="highlighter-rouge">&lt;div&gt;</code> or <code class="highlighter-rouge">&lt;span&gt;</code>, into the navigation order when it is being used for interaction. Use scripting to capture and respond to keyboard events.</p>
+<p>Think about keyboard access, especially when developing interactive elements, such as menus, mouseover information, collapsable accordions, or media players. Use <code class="language-plaintext highlighter-rouge">tabindex="0"</code> to add an element that does not normally receive focus, such as <code class="language-plaintext highlighter-rouge">&lt;div&gt;</code> or <code class="language-plaintext highlighter-rouge">&lt;span&gt;</code>, into the navigation order when it is being used for interaction. Use scripting to capture and respond to keyboard events.</p>
 
 <aside class="box box-example"><header class="box-h  box-h-example"> Example: Keyboard accessible menu button</header><div class="box-i">
 
@@ -798,9 +798,9 @@
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1596737906612587188"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1597088287530706931"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1596737906612587188"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1597088287530706931"></script>
 <script>
   svg4everybody();
 </script><script>

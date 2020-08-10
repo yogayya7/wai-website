@@ -9,16 +9,16 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1596737906612587188";
+      element.src = "/WAI/assets/scripts/main.js?1597088287530706931";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1596737906612587188">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1597088287530706931">
 
 <title> HTML page has title | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.6.1 -->
-<meta name="generator" content="Jekyll v3.8.7" />
+<meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="HTML page has title" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
 <meta property="og:locale" content="en" />
@@ -137,9 +137,9 @@
       <li><strong>Required for conformance</strong> to WCAG 2.0 and above on level A and above</li>
       <li><a href="#outcome">Outcome</a> mapping:
         <ul>
-          <li>Any <code class="highlighter-rouge">failed</code> outcomes: success criterion is not satisfied</li>
-          <li>All <code class="highlighter-rouge">passed</code> outcomes: success criterion needs further testing</li>
-          <li>An <code class="highlighter-rouge">inapplicable</code> outcome: success criterion needs further testing</li>
+          <li>Any <code class="language-plaintext highlighter-rouge">failed</code> outcomes: success criterion is not satisfied</li>
+          <li>All <code class="language-plaintext highlighter-rouge">passed</code> outcomes: success criterion needs further testing</li>
+          <li>An <code class="language-plaintext highlighter-rouge">inapplicable</code> outcome: success criterion needs further testing</li>
         </ul>
       </li>
     </ul>
@@ -154,21 +154,21 @@
 
 <h2 id="applicability">Applicability</h2>
 
-<p>The root element of the <a href="https://www.w3.org/TR/WCAG21/#dfn-web-page-s">web page</a>, if it is an <code class="highlighter-rouge">html</code> element.</p>
+<p>The root element of the <a href="https://www.w3.org/TR/WCAG21/#dfn-web-page-s">web page</a>, if it is an <code class="language-plaintext highlighter-rouge">html</code> element.</p>
 
-<p><strong>Note</strong>: Documents embedded into other documents, such as through <code class="highlighter-rouge">iframe</code> or <code class="highlighter-rouge">object</code> elements are not applicable because they are not web pages according to the definition in WCAG.</p>
+<p><strong>Note</strong>: Documents embedded into other documents, such as through <code class="language-plaintext highlighter-rouge">iframe</code> or <code class="language-plaintext highlighter-rouge">object</code> elements are not applicable because they are not web pages according to the definition in WCAG.</p>
 
 <h2 id="expectation-1">Expectation 1</h2>
 
-<p>Each target element has at least one <a href="https://dom.spec.whatwg.org/#concept-tree-descendant">descendant</a> that is an HTML <code class="highlighter-rouge">title</code> element.</p>
+<p>Each target element has at least one <a href="https://dom.spec.whatwg.org/#concept-tree-descendant">descendant</a> that is an HTML <code class="language-plaintext highlighter-rouge">title</code> element.</p>
 
-<p><strong>Note</strong>: The <code class="highlighter-rouge">title</code> element exists in other namespaces such as SVG. These are not HTML title elements and should be ignored for this rule.</p>
+<p><strong>Note</strong>: The <code class="language-plaintext highlighter-rouge">title</code> element exists in other namespaces such as SVG. These are not HTML title elements and should be ignored for this rule.</p>
 
 <p><strong>Note</strong>: The <a href="https://www.w3.org/TR/html52/document-metadata.html#the-title-element">HTML 5.2 specification</a> requires that a document only has one title element, and that it is a child of the head element of a document. However, HTML 5.2 also describes what should happen in case of multiple titles, and titles outside the head element. Because of this, neither of these validation issues causes a conformance problem for WCAG.</p>
 
 <h2 id="expectation-2">Expectation 2</h2>
 
-<p>For each target element, the first HTML <code class="highlighter-rouge">title</code> element that is a <a href="https://dom.spec.whatwg.org/#concept-tree-descendant">descendant</a> of the <a href="https://dom.spec.whatwg.org/#document-element">document element</a> has <a href="https://dom.spec.whatwg.org/#concept-tree-child">children</a> that are <a href="https://dom.spec.whatwg.org/#text">text nodes</a> that are not only <a href="#whitespace">whitespace</a>.</p>
+<p>For each target element, the first HTML <code class="language-plaintext highlighter-rouge">title</code> element that is a <a href="https://dom.spec.whatwg.org/#concept-tree-descendant">descendant</a> of the <a href="https://dom.spec.whatwg.org/#document-element">document element</a> has <a href="https://dom.spec.whatwg.org/#concept-tree-child">children</a> that are <a href="https://dom.spec.whatwg.org/#text">text nodes</a> that are not only <a href="#whitespace">whitespace</a>.</p>
 
 <h2 id="assumptions">Assumptions</h2>
 
@@ -192,7 +192,7 @@
 
 <h4 id="passed-example-1">Passed Example 1</h4>
 
-<p>This page has a <code class="highlighter-rouge">title</code> with content.</p>
+<p>This page has a <code class="language-plaintext highlighter-rouge">title</code> with content.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
 <span class="nt">&lt;title&gt;</span>This page has a title<span class="nt">&lt;/title&gt;</span>
@@ -201,7 +201,7 @@
 
 <h4 id="passed-example-2">Passed Example 2</h4>
 
-<p>This page <code class="highlighter-rouge">title</code> element is for the entire page, including content in the <code class="highlighter-rouge">iframe</code> without its own <code class="highlighter-rouge">title</code>.</p>
+<p>This page <code class="language-plaintext highlighter-rouge">title</code> element is for the entire page, including content in the <code class="language-plaintext highlighter-rouge">iframe</code> without its own <code class="language-plaintext highlighter-rouge">title</code>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
 <span class="nt">&lt;title&gt;</span>This page gives a title to an iframe<span class="nt">&lt;/title&gt;</span>
@@ -211,7 +211,7 @@
 
 <h4 id="passed-example-3">Passed Example 3</h4>
 
-<p>This page has two <code class="highlighter-rouge">title</code> elements.</p>
+<p>This page has two <code class="language-plaintext highlighter-rouge">title</code> elements.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
 <span class="nt">&lt;head&gt;</span>
@@ -225,7 +225,7 @@
 
 <h4 id="passed-example-4">Passed Example 4</h4>
 
-<p>The <code class="highlighter-rouge">title</code> is in the <code class="highlighter-rouge">body</code>.</p>
+<p>The <code class="language-plaintext highlighter-rouge">title</code> is in the <code class="language-plaintext highlighter-rouge">body</code>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
 <span class="nt">&lt;body&gt;</span>
@@ -236,7 +236,7 @@
 
 <h4 id="passed-example-5">Passed Example 5</h4>
 
-<p>The first <code class="highlighter-rouge">title</code> element has content.</p>
+<p>The first <code class="language-plaintext highlighter-rouge">title</code> element has content.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
 <span class="nt">&lt;head&gt;</span>
@@ -250,7 +250,7 @@
 
 <h4 id="passed-example-6">Passed Example 6</h4>
 
-<p>The <code class="highlighter-rouge">title</code> only contains characters that are not letters or numbers.</p>
+<p>The <code class="language-plaintext highlighter-rouge">title</code> only contains characters that are not letters or numbers.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
 <span class="nt">&lt;title&gt;</span>#$@<span class="err">&amp;</span>%*!<span class="nt">&lt;/title&gt;</span>
@@ -261,7 +261,7 @@
 
 <h4 id="failed-example-1">Failed Example 1</h4>
 
-<p>The page has no <code class="highlighter-rouge">title</code>.</p>
+<p>The page has no <code class="language-plaintext highlighter-rouge">title</code>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
 <span class="nt">&lt;h1&gt;</span>this page has no title<span class="nt">&lt;/h1&gt;</span>
@@ -270,7 +270,7 @@
 
 <h4 id="failed-example-2">Failed Example 2</h4>
 
-<p>The <code class="highlighter-rouge">title</code> element is empty.</p>
+<p>The <code class="language-plaintext highlighter-rouge">title</code> element is empty.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
 <span class="nt">&lt;title&gt;&lt;/title&gt;</span>
@@ -279,7 +279,7 @@
 
 <h4 id="failed-example-3">Failed Example 3</h4>
 
-<p>The page has no <code class="highlighter-rouge">title</code>.</p>
+<p>The page has no <code class="language-plaintext highlighter-rouge">title</code>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
 <span class="nt">&lt;iframe</span> <span class="na">src=</span><span class="s">"/test-assets/sc2-4-2-title-page-with-title.html"</span><span class="nt">&gt;&lt;/iframe&gt;</span>
@@ -288,7 +288,7 @@
 
 <h4 id="failed-example-4">Failed Example 4</h4>
 
-<p>The first <code class="highlighter-rouge">title</code> element is empty.</p>
+<p>The first <code class="language-plaintext highlighter-rouge">title</code> element is empty.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
 <span class="nt">&lt;head&gt;</span>
@@ -302,7 +302,7 @@
 
 <h4 id="failed-example-5">Failed Example 5</h4>
 
-<p>The <code class="highlighter-rouge">title</code> only contains a separator character.</p>
+<p>The <code class="language-plaintext highlighter-rouge">title</code> only contains a separator character.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
 <span class="nt">&lt;title&gt;</span> <span class="nt">&lt;/title&gt;</span>
@@ -313,7 +313,7 @@
 
 <h4 id="inapplicable-example-1">Inapplicable Example 1</h4>
 
-<p>This rule is not applicable to <code class="highlighter-rouge">svg</code> elements.</p>
+<p>This rule is not applicable to <code class="language-plaintext highlighter-rouge">svg</code> elements.</p>
 
 <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/2000/svg"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;title&gt;</span>This is an SVG<span class="nt">&lt;/title&gt;</span>
@@ -332,9 +332,9 @@
   <li><strong>Failed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> does not meet all expectations</li>
 </ul>
 
-<p><strong>Note:</strong> A rule has one <code class="highlighter-rouge">passed</code> or <code class="highlighter-rouge">failed</code> outcome for every <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. When there are no test targets the rule has one inapplicable outcome. This means that each <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> will have one or more outcomes.</p>
+<p><strong>Note:</strong> A rule has one <code class="language-plaintext highlighter-rouge">passed</code> or <code class="language-plaintext highlighter-rouge">failed</code> outcome for every <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. When there are no test targets the rule has one inapplicable outcome. This means that each <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> will have one or more outcomes.</p>
 
-<p><strong>Note:</strong> Implementers using the <a href="https://www.w3.org/TR/EARL10-Schema/">EARL10-Schema</a> can express the outcome with the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a>. In addition to <code class="highlighter-rouge">passed</code>, <code class="highlighter-rouge">failed</code> and <code class="highlighter-rouge">inapplicable</code>, EARL 1.0 also defined an <code class="highlighter-rouge">incomplete</code> outcome. While this cannot be the outcome of an ACT Rule when applied in its entirety, it often happens that rules are only partially evaluated. For example, when applicability was automated, but the expectations have to be evaluated manually. Such “interim” results can be expressed with the incomplete outcome.</p>
+<p><strong>Note:</strong> Implementers using the <a href="https://www.w3.org/TR/EARL10-Schema/">EARL10-Schema</a> can express the outcome with the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a>. In addition to <code class="language-plaintext highlighter-rouge">passed</code>, <code class="language-plaintext highlighter-rouge">failed</code> and <code class="language-plaintext highlighter-rouge">inapplicable</code>, EARL 1.0 also defined an <code class="language-plaintext highlighter-rouge">incomplete</code> outcome. While this cannot be the outcome of an ACT Rule when applied in its entirety, it often happens that rules are only partially evaluated. For example, when applicability was automated, but the expectations have to be evaluated manually. Such “interim” results can be expressed with the incomplete outcome.</p>
 
 <h3 id="whitespace">Whitespace</h3>
 
@@ -346,12 +346,12 @@
   <li>all characters in the <a href="https://www.unicode.org/versions/Unicode11.0.0/ch04.pdf#G134153">Unicode Separator categories</a>, and</li>
   <li>the following characters in the <a href="https://www.unicode.org/versions/Unicode11.0.0/ch04.pdf#G134153">Other, Control</a> category:
     <ul>
-      <li>Character tabulation (<code class="highlighter-rouge">U+0009</code>)</li>
-      <li>Line Feed (LF) (<code class="highlighter-rouge">U+000A</code>)</li>
-      <li>Line Tabulation (<code class="highlighter-rouge">U+000B</code>)</li>
-      <li>Form Feed (FF) (<code class="highlighter-rouge">U+000C</code>)</li>
-      <li>Carriage Return (CR) (<code class="highlighter-rouge">U+000D</code>)</li>
-      <li>Next Line (NEL) (<code class="highlighter-rouge">U+0085</code>)</li>
+      <li>Character tabulation (<code class="language-plaintext highlighter-rouge">U+0009</code>)</li>
+      <li>Line Feed (LF) (<code class="language-plaintext highlighter-rouge">U+000A</code>)</li>
+      <li>Line Tabulation (<code class="language-plaintext highlighter-rouge">U+000B</code>)</li>
+      <li>Form Feed (FF) (<code class="language-plaintext highlighter-rouge">U+000C</code>)</li>
+      <li>Carriage Return (CR) (<code class="language-plaintext highlighter-rouge">U+000D</code>)</li>
+      <li>Next Line (NEL) (<code class="language-plaintext highlighter-rouge">U+0085</code>)</li>
     </ul>
   </li>
 </ul>
@@ -418,9 +418,9 @@
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1596737906612587188"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1597088287530706931"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1596737906612587188"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1597088287530706931"></script>
 <script>
   svg4everybody();
 </script><script>

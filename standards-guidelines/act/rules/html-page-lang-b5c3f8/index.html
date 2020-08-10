@@ -9,16 +9,16 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1596737906612587188";
+      element.src = "/WAI/assets/scripts/main.js?1597088287530706931";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1596737906612587188">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1597088287530706931">
 
 <title> HTML page has `lang` attribute | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.6.1 -->
-<meta name="generator" content="Jekyll v3.8.7" />
+<meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="HTML page has lang attribute" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
 <meta property="og:locale" content="en" />
@@ -137,9 +137,9 @@
       <li><strong>Required for conformance</strong> to WCAG 2.0 and above on level A and above</li>
       <li><a href="#outcome">Outcome</a> mapping:
         <ul>
-          <li>Any <code class="highlighter-rouge">failed</code> outcomes: success criterion is not satisfied</li>
-          <li>All <code class="highlighter-rouge">passed</code> outcomes: success criterion needs further testing</li>
-          <li>An <code class="highlighter-rouge">inapplicable</code> outcome: success criterion needs further testing</li>
+          <li>Any <code class="language-plaintext highlighter-rouge">failed</code> outcomes: success criterion is not satisfied</li>
+          <li>All <code class="language-plaintext highlighter-rouge">passed</code> outcomes: success criterion needs further testing</li>
+          <li>An <code class="language-plaintext highlighter-rouge">inapplicable</code> outcome: success criterion needs further testing</li>
         </ul>
       </li>
     </ul>
@@ -149,9 +149,9 @@
       <li><strong>Required for conformance</strong> to WCAG 2.0 and above on level A and above</li>
       <li><a href="#outcome">Outcome</a> mapping:
         <ul>
-          <li>Any <code class="highlighter-rouge">failed</code> outcomes: technique is not satisfied</li>
-          <li>All <code class="highlighter-rouge">passed</code> outcomes: technique needs further testing</li>
-          <li>An <code class="highlighter-rouge">inapplicable</code> outcome: technique needs further testing</li>
+          <li>Any <code class="language-plaintext highlighter-rouge">failed</code> outcomes: technique is not satisfied</li>
+          <li>All <code class="language-plaintext highlighter-rouge">passed</code> outcomes: technique needs further testing</li>
+          <li>An <code class="language-plaintext highlighter-rouge">inapplicable</code> outcome: technique needs further testing</li>
         </ul>
       </li>
     </ul>
@@ -162,26 +162,26 @@
 
 <h2 id="description">Description</h2>
 
-<p>This rule checks that an HTML page has a non-empty <code class="highlighter-rouge">lang</code> attribute.</p>
+<p>This rule checks that an HTML page has a non-empty <code class="language-plaintext highlighter-rouge">lang</code> attribute.</p>
 
 <h2 id="applicability">Applicability</h2>
 
-<p>This rule applies to any <a href="https://dom.spec.whatwg.org/#document-element">document element</a> if it is an <code class="highlighter-rouge">html</code> element that:</p>
+<p>This rule applies to any <a href="https://dom.spec.whatwg.org/#document-element">document element</a> if it is an <code class="language-plaintext highlighter-rouge">html</code> element that:</p>
 
 <ul>
   <li>is in a <a href="https://html.spec.whatwg.org/#top-level-browsing-context">top-level browsing context</a>; and</li>
-  <li>has a <a href="https://dom.spec.whatwg.org/#concept-node-document">node document</a> with a <a href="https://dom.spec.whatwg.org/#concept-document-content-type">content type</a> of <code class="highlighter-rouge">text/html</code>.</li>
+  <li>has a <a href="https://dom.spec.whatwg.org/#concept-node-document">node document</a> with a <a href="https://dom.spec.whatwg.org/#concept-document-content-type">content type</a> of <code class="language-plaintext highlighter-rouge">text/html</code>.</li>
 </ul>
 
-<p><strong>Note:</strong> <code class="highlighter-rouge">html</code> elements within <code class="highlighter-rouge">iframe</code> and <code class="highlighter-rouge">object</code> elements are not applicable as <code class="highlighter-rouge">iframe</code> and <code class="highlighter-rouge">object</code> elements create <a href="https://html.spec.whatwg.org/#nested-browsing-context">nested browsing contexts</a>. However, as these elements are meant to provide a layer of isolation, the declared language of their <a href="https://html.spec.whatwg.org/#parent-browsing-context">parent browsing context</a> will likely not be inherited, making it possible for empty <code class="highlighter-rouge">lang</code> attributes in <a href="https://html.spec.whatwg.org/#nested-browsing-context">nested browsing contexts</a> to also cause accessibility issues.</p>
+<p><strong>Note:</strong> <code class="language-plaintext highlighter-rouge">html</code> elements within <code class="language-plaintext highlighter-rouge">iframe</code> and <code class="language-plaintext highlighter-rouge">object</code> elements are not applicable as <code class="language-plaintext highlighter-rouge">iframe</code> and <code class="language-plaintext highlighter-rouge">object</code> elements create <a href="https://html.spec.whatwg.org/#nested-browsing-context">nested browsing contexts</a>. However, as these elements are meant to provide a layer of isolation, the declared language of their <a href="https://html.spec.whatwg.org/#parent-browsing-context">parent browsing context</a> will likely not be inherited, making it possible for empty <code class="language-plaintext highlighter-rouge">lang</code> attributes in <a href="https://html.spec.whatwg.org/#nested-browsing-context">nested browsing contexts</a> to also cause accessibility issues.</p>
 
 <h2 id="expectation">Expectation</h2>
 
-<p>Each test target has a <code class="highlighter-rouge">lang</code> attribute that is neither empty (<code class="highlighter-rouge">""</code>) nor only <a href="https://infra.spec.whatwg.org/#ascii-whitespace">ASCII whitespace</a>.</p>
+<p>Each test target has a <code class="language-plaintext highlighter-rouge">lang</code> attribute that is neither empty (<code class="language-plaintext highlighter-rouge">""</code>) nor only <a href="https://infra.spec.whatwg.org/#ascii-whitespace">ASCII whitespace</a>.</p>
 
 <h2 id="assumptions">Assumptions</h2>
 
-<p>The language of the page can be set by other methods than the <code class="highlighter-rouge">lang</code> attribute, for example using HTTP headers or the <code class="highlighter-rouge">meta</code> element. These methods are not supported by all assistive technologies. This rule assumes that these other methods are insufficient to satisfying <a href="https://www.w3.org/TR/WCAG21/#language-of-page">Success Criterion 3.1.1: Language of Page</a>.</p>
+<p>The language of the page can be set by other methods than the <code class="language-plaintext highlighter-rouge">lang</code> attribute, for example using HTTP headers or the <code class="language-plaintext highlighter-rouge">meta</code> element. These methods are not supported by all assistive technologies. This rule assumes that these other methods are insufficient to satisfying <a href="https://www.w3.org/TR/WCAG21/#language-of-page">Success Criterion 3.1.1: Language of Page</a>.</p>
 
 <h2 id="accessibility-support">Accessibility Support</h2>
 
@@ -193,7 +193,7 @@
   <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html">Understanding Success Criterion 3.1.1: Language of Page</a></li>
   <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H57">H57: Using language attributes on the html element</a></li>
   <li><a href="https://www.ietf.org/rfc/bcp/bcp47.txt">BCP 47: Tags for Identifying Languages</a></li>
-  <li><a href="https://html.spec.whatwg.org/multipage/dom.html#the-lang-and-xml:lang-attributes">The <code class="highlighter-rouge">lang</code> and <code class="highlighter-rouge">xml:lang</code> attributes</a></li>
+  <li><a href="https://html.spec.whatwg.org/multipage/dom.html#the-lang-and-xml:lang-attributes">The <code class="language-plaintext highlighter-rouge">lang</code> and <code class="language-plaintext highlighter-rouge">xml:lang</code> attributes</a></li>
 </ul>
 
 <h2 id="test-cases">Test Cases</h2>
@@ -202,7 +202,7 @@
 
 <h4 id="passed-example-1">Passed Example 1</h4>
 
-<p>This <code class="highlighter-rouge">html</code> element has a <code class="highlighter-rouge">lang</code> attribute with a non-empty (<code class="highlighter-rouge">""</code>) value.</p>
+<p>This <code class="language-plaintext highlighter-rouge">html</code> element has a <code class="language-plaintext highlighter-rouge">lang</code> attribute with a non-empty (<code class="language-plaintext highlighter-rouge">""</code>) value.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;&lt;/html&gt;</span>
 </code></pre></div></div>
@@ -211,28 +211,28 @@
 
 <h4 id="failed-example-1">Failed Example 1</h4>
 
-<p>This <code class="highlighter-rouge">html</code> element does not have a <code class="highlighter-rouge">lang</code> attribute.</p>
+<p>This <code class="language-plaintext highlighter-rouge">html</code> element does not have a <code class="language-plaintext highlighter-rouge">lang</code> attribute.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;&lt;/html&gt;</span>
 </code></pre></div></div>
 
 <h4 id="failed-example-2">Failed Example 2</h4>
 
-<p>This <code class="highlighter-rouge">html</code> element has a <code class="highlighter-rouge">lang</code> attribute with an empty (<code class="highlighter-rouge">""</code>) value.</p>
+<p>This <code class="language-plaintext highlighter-rouge">html</code> element has a <code class="language-plaintext highlighter-rouge">lang</code> attribute with an empty (<code class="language-plaintext highlighter-rouge">""</code>) value.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">""</span><span class="nt">&gt;&lt;/html&gt;</span>
 </code></pre></div></div>
 
 <h4 id="failed-example-3">Failed Example 3</h4>
 
-<p>This <code class="highlighter-rouge">html</code> element has a <code class="highlighter-rouge">lang</code> attribute whose value is only <a href="https://infra.spec.whatwg.org/#ascii-whitespace">ASCII whitespace</a>.</p>
+<p>This <code class="language-plaintext highlighter-rouge">html</code> element has a <code class="language-plaintext highlighter-rouge">lang</code> attribute whose value is only <a href="https://infra.spec.whatwg.org/#ascii-whitespace">ASCII whitespace</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">" "</span><span class="nt">&gt;&lt;/html&gt;</span>
 </code></pre></div></div>
 
 <h4 id="failed-example-4">Failed Example 4</h4>
 
-<p>This <code class="highlighter-rouge">html</code> element has no <code class="highlighter-rouge">lang</code> attribute, only a <code class="highlighter-rouge">xml:lang</code> attribute.</p>
+<p>This <code class="language-plaintext highlighter-rouge">html</code> element has no <code class="language-plaintext highlighter-rouge">lang</code> attribute, only a <code class="language-plaintext highlighter-rouge">xml:lang</code> attribute.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">xml:lang=</span><span class="s">"en"</span><span class="nt">&gt;&lt;/html&gt;</span>
 </code></pre></div></div>
@@ -241,14 +241,14 @@
 
 <h4 id="inapplicable-example-1">Inapplicable Example 1</h4>
 
-<p>This rule does not apply to <code class="highlighter-rouge">svg</code> element.</p>
+<p>This rule does not apply to <code class="language-plaintext highlighter-rouge">svg</code> element.</p>
 
 <pre><code class="language-svg">&lt;svg xmlns="http://www.w3.org/2000/svg"&gt;&lt;/svg&gt;
 </code></pre>
 
 <h4 id="inapplicable-example-2">Inapplicable Example 2</h4>
 
-<p>This rule does not apply to <code class="highlighter-rouge">math</code> element.</p>
+<p>This rule does not apply to <code class="language-plaintext highlighter-rouge">math</code> element.</p>
 
 <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;math&gt;&lt;/math&gt;</span>
 </code></pre></div></div>
@@ -265,9 +265,9 @@
   <li><strong>Failed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> does not meet all expectations</li>
 </ul>
 
-<p><strong>Note:</strong> A rule has one <code class="highlighter-rouge">passed</code> or <code class="highlighter-rouge">failed</code> outcome for every <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. When there are no test targets the rule has one inapplicable outcome. This means that each <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> will have one or more outcomes.</p>
+<p><strong>Note:</strong> A rule has one <code class="language-plaintext highlighter-rouge">passed</code> or <code class="language-plaintext highlighter-rouge">failed</code> outcome for every <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. When there are no test targets the rule has one inapplicable outcome. This means that each <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> will have one or more outcomes.</p>
 
-<p><strong>Note:</strong> Implementers using the <a href="https://www.w3.org/TR/EARL10-Schema/">EARL10-Schema</a> can express the outcome with the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a>. In addition to <code class="highlighter-rouge">passed</code>, <code class="highlighter-rouge">failed</code> and <code class="highlighter-rouge">inapplicable</code>, EARL 1.0 also defined an <code class="highlighter-rouge">incomplete</code> outcome. While this cannot be the outcome of an ACT Rule when applied in its entirety, it often happens that rules are only partially evaluated. For example, when applicability was automated, but the expectations have to be evaluated manually. Such “interim” results can be expressed with the incomplete outcome.</p>
+<p><strong>Note:</strong> Implementers using the <a href="https://www.w3.org/TR/EARL10-Schema/">EARL10-Schema</a> can express the outcome with the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a>. In addition to <code class="language-plaintext highlighter-rouge">passed</code>, <code class="language-plaintext highlighter-rouge">failed</code> and <code class="language-plaintext highlighter-rouge">inapplicable</code>, EARL 1.0 also defined an <code class="language-plaintext highlighter-rouge">incomplete</code> outcome. While this cannot be the outcome of an ACT Rule when applied in its entirety, it often happens that rules are only partially evaluated. For example, when applicability was automated, but the expectations have to be evaluated manually. Such “interim” results can be expressed with the incomplete outcome.</p>
 
 <h2 id="acknowledgements">Acknowledgements</h2>
 
@@ -328,9 +328,9 @@
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1596737906612587188"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1597088287530706931"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1596737906612587188"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1597088287530706931"></script>
 <script>
   svg4everybody();
 </script><script>

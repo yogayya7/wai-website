@@ -9,16 +9,16 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1596737906612587188";
+      element.src = "/WAI/assets/scripts/main.js?1597088287530706931";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1596737906612587188">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1597088287530706931">
 
 <title> HTML page lang and xml:lang attributes have matching values | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.6.1 -->
-<meta name="generator" content="Jekyll v3.8.7" />
+<meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="HTML page lang and xml:lang attributes have matching values" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
 <meta property="og:locale" content="en" />
@@ -137,9 +137,9 @@
       <li><strong>Required for conformance</strong> to WCAG 2.0 and above on level A and above</li>
       <li><a href="#outcome">Outcome</a> mapping:
         <ul>
-          <li>Any <code class="highlighter-rouge">failed</code> outcomes: success criterion is not satisfied</li>
-          <li>All <code class="highlighter-rouge">passed</code> outcomes: success criterion needs further testing</li>
-          <li>An <code class="highlighter-rouge">inapplicable</code> outcome: success criterion needs further testing</li>
+          <li>Any <code class="language-plaintext highlighter-rouge">failed</code> outcomes: success criterion is not satisfied</li>
+          <li>All <code class="language-plaintext highlighter-rouge">passed</code> outcomes: success criterion needs further testing</li>
+          <li>An <code class="language-plaintext highlighter-rouge">inapplicable</code> outcome: success criterion needs further testing</li>
         </ul>
       </li>
     </ul>
@@ -150,32 +150,32 @@
 
 <h2 id="description">Description</h2>
 
-<p>This rule checks that all HTML pages with both a <code class="highlighter-rouge">lang</code> and <code class="highlighter-rouge">xml:lang</code> attributes on the root element, have the same primary language subtag.</p>
+<p>This rule checks that all HTML pages with both a <code class="language-plaintext highlighter-rouge">lang</code> and <code class="language-plaintext highlighter-rouge">xml:lang</code> attributes on the root element, have the same primary language subtag.</p>
 
 <h2 id="applicability">Applicability</h2>
 
-<p>This rule applies to any <a href="https://dom.spec.whatwg.org/#document-element">document element</a> if it is an <code class="highlighter-rouge">html</code> element that:</p>
+<p>This rule applies to any <a href="https://dom.spec.whatwg.org/#document-element">document element</a> if it is an <code class="language-plaintext highlighter-rouge">html</code> element that:</p>
 
 <ul>
   <li>is in a <a href="https://html.spec.whatwg.org/#top-level-browsing-context" title="Definition of top-level browsing context">top-level browsing context</a>; and</li>
-  <li>has a <a href="https://dom.spec.whatwg.org/#concept-node-document">node document</a> with a <a href="https://dom.spec.whatwg.org/#concept-document-content-type" title="Definition of content type">content type</a> of <code class="highlighter-rouge">text/html</code>; and</li>
-  <li>has a <code class="highlighter-rouge">lang</code> attribute that has a <a href="#valid-language-subtag" title="Definition of valid language subtag">valid language subtag</a>; and</li>
-  <li>has a non-empty <code class="highlighter-rouge">xml:lang</code> attribute.</li>
+  <li>has a <a href="https://dom.spec.whatwg.org/#concept-node-document">node document</a> with a <a href="https://dom.spec.whatwg.org/#concept-document-content-type" title="Definition of content type">content type</a> of <code class="language-plaintext highlighter-rouge">text/html</code>; and</li>
+  <li>has a <code class="language-plaintext highlighter-rouge">lang</code> attribute that has a <a href="#valid-language-subtag" title="Definition of valid language subtag">valid language subtag</a>; and</li>
+  <li>has a non-empty <code class="language-plaintext highlighter-rouge">xml:lang</code> attribute.</li>
 </ul>
 
-<p><strong>Note:</strong> <code class="highlighter-rouge">html</code> elements within <code class="highlighter-rouge">iframe</code> and <code class="highlighter-rouge">object</code> elements are not applicable as <code class="highlighter-rouge">iframe</code> and <code class="highlighter-rouge">object</code> elements create <a href="https://html.spec.whatwg.org/#nested-browsing-context">nested browsing contexts</a>. However, as these elements are meant to provide a layer of isolation, the declared language of their <a href="https://html.spec.whatwg.org/#parent-browsing-context">parent browsing context</a> will likely not be inherited, making it possible for non-matching <code class="highlighter-rouge">lang</code> and <code class="highlighter-rouge">xml:lang</code> attributes in <a href="https://html.spec.whatwg.org/#nested-browsing-context">nested browsing contexts</a> to also cause accessibility issues.</p>
+<p><strong>Note:</strong> <code class="language-plaintext highlighter-rouge">html</code> elements within <code class="language-plaintext highlighter-rouge">iframe</code> and <code class="language-plaintext highlighter-rouge">object</code> elements are not applicable as <code class="language-plaintext highlighter-rouge">iframe</code> and <code class="language-plaintext highlighter-rouge">object</code> elements create <a href="https://html.spec.whatwg.org/#nested-browsing-context">nested browsing contexts</a>. However, as these elements are meant to provide a layer of isolation, the declared language of their <a href="https://html.spec.whatwg.org/#parent-browsing-context">parent browsing context</a> will likely not be inherited, making it possible for non-matching <code class="language-plaintext highlighter-rouge">lang</code> and <code class="language-plaintext highlighter-rouge">xml:lang</code> attributes in <a href="https://html.spec.whatwg.org/#nested-browsing-context">nested browsing contexts</a> to also cause accessibility issues.</p>
 
 <h2 id="expectation">Expectation</h2>
 
-<p>For each test target, the values of the <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtags</a>, if any exist, for the <code class="highlighter-rouge">lang</code> and <code class="highlighter-rouge">xml:lang</code> attributes are the same.</p>
+<p>For each test target, the values of the <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtags</a>, if any exist, for the <code class="language-plaintext highlighter-rouge">lang</code> and <code class="language-plaintext highlighter-rouge">xml:lang</code> attributes are the same.</p>
 
-<p><strong>Note:</strong> Having matching <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtags</a> of the <code class="highlighter-rouge">lang</code> and <code class="highlighter-rouge">xml:lang</code> attribute, but non-matching <a href="https://tools.ietf.org/html/bcp47#section-2">language tags</a> overall, will not cause accessibility issues unless there’s a sufficiently large difference between the two <a href="https://tools.ietf.org/html/bcp47#section-2">language tags</a>. One notable case is the <a href="https://tools.ietf.org/html/bcp47#section-2">language tags</a> for Cantonese (<code class="highlighter-rouge">zh-yue</code>) and Mandarin (<code class="highlighter-rouge">zh-cmn</code>) where the <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtags</a> match, but the <a href="https://tools.ietf.org/html/bcp47#section-2.2.2" title="Definition of extended language subtag">extended language subtags</a> don’t. Such a case would not fail this rule, but could lead to accessibility issues in practice.</p>
+<p><strong>Note:</strong> Having matching <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtags</a> of the <code class="language-plaintext highlighter-rouge">lang</code> and <code class="language-plaintext highlighter-rouge">xml:lang</code> attribute, but non-matching <a href="https://tools.ietf.org/html/bcp47#section-2">language tags</a> overall, will not cause accessibility issues unless there’s a sufficiently large difference between the two <a href="https://tools.ietf.org/html/bcp47#section-2">language tags</a>. One notable case is the <a href="https://tools.ietf.org/html/bcp47#section-2">language tags</a> for Cantonese (<code class="language-plaintext highlighter-rouge">zh-yue</code>) and Mandarin (<code class="language-plaintext highlighter-rouge">zh-cmn</code>) where the <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtags</a> match, but the <a href="https://tools.ietf.org/html/bcp47#section-2.2.2" title="Definition of extended language subtag">extended language subtags</a> don’t. Such a case would not fail this rule, but could lead to accessibility issues in practice.</p>
 
 <h2 id="assumptions">Assumptions</h2>
 
 <ul>
   <li>
-    <p>The language of the page can be set by other methods than the <code class="highlighter-rouge">lang</code> attribute, for example using HTTP headers or the <code class="highlighter-rouge">meta</code> element. These methods are not supported by all assistive technologies. This rule assumes that these other methods are insufficient to satisfying <a href="https://www.w3.org/TR/WCAG21/#language-of-page">Success Criterion 3.1.1: Language of Page</a>.</p>
+    <p>The language of the page can be set by other methods than the <code class="language-plaintext highlighter-rouge">lang</code> attribute, for example using HTTP headers or the <code class="language-plaintext highlighter-rouge">meta</code> element. These methods are not supported by all assistive technologies. This rule assumes that these other methods are insufficient to satisfying <a href="https://www.w3.org/TR/WCAG21/#language-of-page">Success Criterion 3.1.1: Language of Page</a>.</p>
   </li>
   <li>
     <p>This rule assumes that user agents and assistive technologies can programmatically determine <a href="#valid-language-subtag">valid language subtags</a> even if these do not conform to the <a href="https://tools.ietf.org/html/bcp47#section-2.1">BCP 47</a> syntax.</p>
@@ -187,14 +187,14 @@
 
 <h2 id="accessibility-support">Accessibility Support</h2>
 
-<p>Since most assistive technologies will consistently use <code class="highlighter-rouge">lang</code> over <code class="highlighter-rouge">xml:lang</code> when both are used, violation of this rule may not necessarily be a violation of WCAG 2. Only when there are inconsistencies between assistive technologies as to which attribute is used to determine the language does this lead to a violation of SC 3.1.1.</p>
+<p>Since most assistive technologies will consistently use <code class="language-plaintext highlighter-rouge">lang</code> over <code class="language-plaintext highlighter-rouge">xml:lang</code> when both are used, violation of this rule may not necessarily be a violation of WCAG 2. Only when there are inconsistencies between assistive technologies as to which attribute is used to determine the language does this lead to a violation of SC 3.1.1.</p>
 
 <h2 id="background">Background</h2>
 
 <ul>
   <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H57">H57: Using language attributes on the html element</a></li>
   <li><a href="https://www.ietf.org/rfc/bcp/bcp47.txt">BCP 47: Tags for Identifying Languages</a></li>
-  <li><a href="https://html.spec.whatwg.org/multipage/dom.html#the-lang-and-xml:lang-attributes">The <code class="highlighter-rouge">lang</code> and <code class="highlighter-rouge">xml:lang</code> attributes</a></li>
+  <li><a href="https://html.spec.whatwg.org/multipage/dom.html#the-lang-and-xml:lang-attributes">The <code class="language-plaintext highlighter-rouge">lang</code> and <code class="language-plaintext highlighter-rouge">xml:lang</code> attributes</a></li>
 </ul>
 
 <h2 id="test-cases">Test Cases</h2>
@@ -203,21 +203,21 @@
 
 <h4 id="passed-example-1">Passed Example 1</h4>
 
-<p>This <code class="highlighter-rouge">html</code> element has identical <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtags</a> for its <code class="highlighter-rouge">lang</code> and <code class="highlighter-rouge">xml:lang</code> attributes.</p>
+<p>This <code class="language-plaintext highlighter-rouge">html</code> element has identical <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtags</a> for its <code class="language-plaintext highlighter-rouge">lang</code> and <code class="language-plaintext highlighter-rouge">xml:lang</code> attributes.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span> <span class="na">xml:lang=</span><span class="s">"en"</span><span class="nt">&gt;&lt;/html&gt;</span>
 </code></pre></div></div>
 
 <h4 id="passed-example-2">Passed Example 2</h4>
 
-<p>This <code class="highlighter-rouge">html</code> element has identical <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtags</a> for its <code class="highlighter-rouge">lang</code> and <code class="highlighter-rouge">xml:lang</code> attributes. The <a href="https://tools.ietf.org/html/bcp47#section-2.2.2" title="Definition of extended language subtag">extended language subtags</a> also match.</p>
+<p>This <code class="language-plaintext highlighter-rouge">html</code> element has identical <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtags</a> for its <code class="language-plaintext highlighter-rouge">lang</code> and <code class="language-plaintext highlighter-rouge">xml:lang</code> attributes. The <a href="https://tools.ietf.org/html/bcp47#section-2.2.2" title="Definition of extended language subtag">extended language subtags</a> also match.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en-GB"</span> <span class="na">xml:lang=</span><span class="s">"en-GB"</span><span class="nt">&gt;&lt;/html&gt;</span>
 </code></pre></div></div>
 
 <h4 id="passed-example-3">Passed Example 3</h4>
 
-<p>This <code class="highlighter-rouge">html</code> element has identical <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtags</a> for its <code class="highlighter-rouge">lang</code> and <code class="highlighter-rouge">xml:lang</code> attributes. The <a href="https://tools.ietf.org/html/bcp47#section-2.2.2" title="Definition of extended language subtag">extended language subtags</a> do not match, but this is not required by this rule.</p>
+<p>This <code class="language-plaintext highlighter-rouge">html</code> element has identical <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtags</a> for its <code class="language-plaintext highlighter-rouge">lang</code> and <code class="language-plaintext highlighter-rouge">xml:lang</code> attributes. The <a href="https://tools.ietf.org/html/bcp47#section-2.2.2" title="Definition of extended language subtag">extended language subtags</a> do not match, but this is not required by this rule.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en-GB"</span> <span class="na">xml:lang=</span><span class="s">"en-US"</span><span class="nt">&gt;&lt;/html&gt;</span>
 </code></pre></div></div>
@@ -226,14 +226,14 @@
 
 <h4 id="failed-example-1">Failed Example 1</h4>
 
-<p>This <code class="highlighter-rouge">html</code> element has different <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtags</a> for its <code class="highlighter-rouge">lang</code> and <code class="highlighter-rouge">xml:lang</code> attributes.</p>
+<p>This <code class="language-plaintext highlighter-rouge">html</code> element has different <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtags</a> for its <code class="language-plaintext highlighter-rouge">lang</code> and <code class="language-plaintext highlighter-rouge">xml:lang</code> attributes.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"fr"</span> <span class="na">xml:lang=</span><span class="s">"en"</span><span class="nt">&gt;&lt;/html&gt;</span>
 </code></pre></div></div>
 
 <h4 id="failed-example-2">Failed Example 2</h4>
 
-<p>This <code class="highlighter-rouge">html</code> element has different <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtags</a> for its <code class="highlighter-rouge">lang</code> and <code class="highlighter-rouge">xml:lang</code> attributes. The <a href="https://tools.ietf.org/html/bcp47#section-2.2.2" title="Definition of extended language subtag">extended language subtags</a> do match, but this rules only focus on the <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtags</a>.</p>
+<p>This <code class="language-plaintext highlighter-rouge">html</code> element has different <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtags</a> for its <code class="language-plaintext highlighter-rouge">lang</code> and <code class="language-plaintext highlighter-rouge">xml:lang</code> attributes. The <a href="https://tools.ietf.org/html/bcp47#section-2.2.2" title="Definition of extended language subtag">extended language subtags</a> do match, but this rules only focus on the <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtags</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"fr-CA"</span> <span class="na">xml:lang=</span><span class="s">"en-CA"</span><span class="nt">&gt;&lt;/html&gt;</span>
 </code></pre></div></div>
@@ -242,14 +242,14 @@
 
 <h4 id="inapplicable-example-1">Inapplicable Example 1</h4>
 
-<p>This rule does not apply to <code class="highlighter-rouge">svg</code> elements.</p>
+<p>This rule does not apply to <code class="language-plaintext highlighter-rouge">svg</code> elements.</p>
 
 <pre><code class="language-svg">&lt;svg xmlns="http://www.w3.org/2000/svg" lang="en" xml:lang="en"&gt;&lt;/svg&gt;
 </code></pre>
 
 <h4 id="inapplicable-example-2">Inapplicable Example 2</h4>
 
-<p>This rule does not apply to <code class="highlighter-rouge">svg</code> elements, even inside an <code class="highlighter-rouge">html</code> element.</p>
+<p>This rule does not apply to <code class="language-plaintext highlighter-rouge">svg</code> elements, even inside an <code class="language-plaintext highlighter-rouge">html</code> element.</p>
 
 <pre><code class="language-svg">&lt;html&gt;
 	&lt;body&gt;
@@ -260,14 +260,14 @@
 
 <h4 id="inapplicable-example-3">Inapplicable Example 3</h4>
 
-<p>This rule does not apply to <code class="highlighter-rouge">math</code> elements.</p>
+<p>This rule does not apply to <code class="language-plaintext highlighter-rouge">math</code> elements.</p>
 
 <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;math</span> <span class="na">xml:lang=</span><span class="s">"en"</span><span class="nt">&gt;&lt;/math&gt;</span>
 </code></pre></div></div>
 
 <h4 id="inapplicable-example-4">Inapplicable Example 4</h4>
 
-<p>This rule only applies to documents with a <a href="https://dom.spec.whatwg.org/#concept-document-content-type" title="Definition of content type">content type</a> of <code class="highlighter-rouge">text/html</code></p>
+<p>This rule only applies to documents with a <a href="https://dom.spec.whatwg.org/#concept-document-content-type" title="Definition of content type">content type</a> of <code class="language-plaintext highlighter-rouge">text/html</code></p>
 
 <pre><code class="language-xhtml">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"&gt;
 &lt;html lang="en" xml:lang="en"&gt;&lt;/html&gt;
@@ -275,21 +275,21 @@
 
 <h4 id="inapplicable-example-5">Inapplicable Example 5</h4>
 
-<p>This rule does not apply to <code class="highlighter-rouge">html</code> elements whose <code class="highlighter-rouge">lang</code> attribute is not a <a href="#valid-language-subtag" title="Definition of valid language subtag">valid language subtag</a>.</p>
+<p>This rule does not apply to <code class="language-plaintext highlighter-rouge">html</code> elements whose <code class="language-plaintext highlighter-rouge">lang</code> attribute is not a <a href="#valid-language-subtag" title="Definition of valid language subtag">valid language subtag</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"em"</span> <span class="na">xml:lang=</span><span class="s">"en"</span><span class="nt">&gt;&lt;/html&gt;</span>
 </code></pre></div></div>
 
 <h4 id="inapplicable-example-6">Inapplicable Example 6</h4>
 
-<p>This rule does not apply to <code class="highlighter-rouge">html</code> elements without an <code class="highlighter-rouge">xml:lang</code> attribute.</p>
+<p>This rule does not apply to <code class="language-plaintext highlighter-rouge">html</code> elements without an <code class="language-plaintext highlighter-rouge">xml:lang</code> attribute.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;&lt;/html&gt;</span>
 </code></pre></div></div>
 
 <h4 id="inapplicable-example-7">Inapplicable Example 7</h4>
 
-<p>This rule applies neither to <code class="highlighter-rouge">html</code> elements without an <code class="highlighter-rouge">xml:lang</code> attribute, nor to <code class="highlighter-rouge">html</code> in <a href="https://html.spec.whatwg.org/#nested-browsing-context" title="Definition of nested browsing context">nested browsing context</a></p>
+<p>This rule applies neither to <code class="language-plaintext highlighter-rouge">html</code> elements without an <code class="language-plaintext highlighter-rouge">xml:lang</code> attribute, nor to <code class="language-plaintext highlighter-rouge">html</code> in <a href="https://html.spec.whatwg.org/#nested-browsing-context" title="Definition of nested browsing context">nested browsing context</a></p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
 	<span class="nt">&lt;iframe</span> <span class="na">srcdoc=</span><span class="s">"&lt;html lang='en' xml:lang='en'&gt;&lt;/html&gt;"</span> <span class="nt">/&gt;</span>
@@ -298,7 +298,7 @@
 
 <h4 id="inapplicable-example-8">Inapplicable Example 8</h4>
 
-<p>This rule does not apply to <code class="highlighter-rouge">html</code> elements with an empty (<code class="highlighter-rouge">""</code>) <code class="highlighter-rouge">xml:lang</code> attribute.</p>
+<p>This rule does not apply to <code class="language-plaintext highlighter-rouge">html</code> elements with an empty (<code class="language-plaintext highlighter-rouge">""</code>) <code class="language-plaintext highlighter-rouge">xml:lang</code> attribute.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"fr"</span> <span class="na">xml:lang=</span><span class="s">""</span><span class="nt">&gt;&lt;/html&gt;</span>
 </code></pre></div></div>
@@ -315,15 +315,15 @@
   <li><strong>Failed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> does not meet all expectations</li>
 </ul>
 
-<p><strong>Note:</strong> A rule has one <code class="highlighter-rouge">passed</code> or <code class="highlighter-rouge">failed</code> outcome for every <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. When there are no test targets the rule has one inapplicable outcome. This means that each <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> will have one or more outcomes.</p>
+<p><strong>Note:</strong> A rule has one <code class="language-plaintext highlighter-rouge">passed</code> or <code class="language-plaintext highlighter-rouge">failed</code> outcome for every <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. When there are no test targets the rule has one inapplicable outcome. This means that each <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> will have one or more outcomes.</p>
 
-<p><strong>Note:</strong> Implementers using the <a href="https://www.w3.org/TR/EARL10-Schema/">EARL10-Schema</a> can express the outcome with the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a>. In addition to <code class="highlighter-rouge">passed</code>, <code class="highlighter-rouge">failed</code> and <code class="highlighter-rouge">inapplicable</code>, EARL 1.0 also defined an <code class="highlighter-rouge">incomplete</code> outcome. While this cannot be the outcome of an ACT Rule when applied in its entirety, it often happens that rules are only partially evaluated. For example, when applicability was automated, but the expectations have to be evaluated manually. Such “interim” results can be expressed with the incomplete outcome.</p>
+<p><strong>Note:</strong> Implementers using the <a href="https://www.w3.org/TR/EARL10-Schema/">EARL10-Schema</a> can express the outcome with the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a>. In addition to <code class="language-plaintext highlighter-rouge">passed</code>, <code class="language-plaintext highlighter-rouge">failed</code> and <code class="language-plaintext highlighter-rouge">inapplicable</code>, EARL 1.0 also defined an <code class="language-plaintext highlighter-rouge">incomplete</code> outcome. While this cannot be the outcome of an ACT Rule when applied in its entirety, it often happens that rules are only partially evaluated. For example, when applicability was automated, but the expectations have to be evaluated manually. Such “interim” results can be expressed with the incomplete outcome.</p>
 
 <h3 id="valid-language-subtag">Valid Language Subtag</h3>
 
-<p>A language tag consists of a [primary language subtag][] from the <a href="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">language subtag registry</a>, optionally followed by a hyphen (<code class="highlighter-rouge">-</code>) and any sequence of characters.</p>
+<p>A language tag consists of a [primary language subtag][] from the <a href="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">language subtag registry</a>, optionally followed by a hyphen (<code class="language-plaintext highlighter-rouge">-</code>) and any sequence of characters.</p>
 
-<p><em>Note:</em> This definition intentionally differs from the <a href="https://tools.ietf.org/html/bcp47#section-2.1">BCP 47</a> syntax as user agents and assistive technologies are more lenient in what they accept. The definition is however consistent with the behavior of the <code class="highlighter-rouge">:lang()</code> pseudo-selector as defined by <a href="https://drafts.csswg.org/selectors-3/#lang-pseudo">Selectors Level 3</a>. For example, <code class="highlighter-rouge">de-hello</code> would be an accepted way to indicate German in current user agents and assistive technologies, despite not being valid according to <a href="https://tools.ietf.org/html/bcp47#section-2.1">BCP 47</a>. As a consequence of this definition, however, <a href="https://tools.ietf.org/html/bcp47#section-2.2.8">grandfathered tags</a> are not correctly recognized as valid language subtags.</p>
+<p><em>Note:</em> This definition intentionally differs from the <a href="https://tools.ietf.org/html/bcp47#section-2.1">BCP 47</a> syntax as user agents and assistive technologies are more lenient in what they accept. The definition is however consistent with the behavior of the <code class="language-plaintext highlighter-rouge">:lang()</code> pseudo-selector as defined by <a href="https://drafts.csswg.org/selectors-3/#lang-pseudo">Selectors Level 3</a>. For example, <code class="language-plaintext highlighter-rouge">de-hello</code> would be an accepted way to indicate German in current user agents and assistive technologies, despite not being valid according to <a href="https://tools.ietf.org/html/bcp47#section-2.1">BCP 47</a>. As a consequence of this definition, however, <a href="https://tools.ietf.org/html/bcp47#section-2.2.8">grandfathered tags</a> are not correctly recognized as valid language subtags.</p>
 
 <h2 id="acknowledgements">Acknowledgements</h2>
 
@@ -385,9 +385,9 @@
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1596737906612587188"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1597088287530706931"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1596737906612587188"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1597088287530706931"></script>
 <script>
   svg4everybody();
 </script><script>
