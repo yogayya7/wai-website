@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2020-08-11/wcag-2-2/",
+            "title": "For Wide Review: Web Content Accessibility Guidelines (WCAG) 2.2 Working Draft",
+            "summary": null,
+            "content_text": "WCAG 2.2 Working Draft is ready wide review before finalizing WCAG 2.2. This version has 9 new “success criteria”  (requirements) since WCAG 2.1. The new success criteria address user needs of people with cognitive or learning disabilities, users of mobile devices, and users of ebooks. We want to hear from users, authors, tool developers, policy makers, and others about benefits from the new proposed success criteria, as well as how achievable you feel it is to conform to the new success criteria. Additional information is in the blog post Web Content Accessibility Guidelines (WCAG) 2.2 Draft for Review. Please submit comments by 18 September 2020.",
+            "content_html": "<p><a href=\"https://www.w3.org/TR/WCAG22/\">WCAG 2.2 Working Draft</a> is ready wide review before finalizing WCAG 2.2. This version has 9 new “success criteria”  (requirements) since WCAG 2.1. The new success criteria address user needs of people with cognitive or learning disabilities, users of mobile devices, and users of ebooks. We want to hear from users, authors, tool developers, policy makers, and others about benefits from the new proposed success criteria, as well as how achievable you feel it is to conform to the new success criteria. Additional information is in the blog post <a href=\"https://www.w3.org/blog/2020/08/wcag22-wide-review/\">Web Content Accessibility Guidelines (WCAG) 2.2 Draft for Review</a>. Please submit comments by 18 September 2020.</p>",
+            "url": "https://www.w3.org/WAI/news/2020-08-11/wcag-2-2/",
+            
+            
+            
+            
+            
+            "date_published": "2020-08-11T00:00:00+00:00",
+            "date_modified": "2020-08-11T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2020-07-17/content-usable/",
             "title": "For Review: Making Content Usable for People with Cognitive and Learning Disabilities",
             "summary": null,
@@ -740,27 +761,6 @@
             
             "date_published": "2018-09-13T09:00:00+00:00",
             "date_modified": "2018-09-13T09:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2018-08-30/WCAG-10-Superseded/",
-            "title": "WCAG 1.0 to be Marked Superseded",
-            "summary": null,
-            "content_text": "Web Content Accessibility Guidelines (WCAG) 1.0 is the first version of the guidelines finalized in 1999. We plan to mark WCAG 1.0 “superseded” by the end of this year. More information is in Superseding WCAG 1.0 e-mail and the W3C Process document. If you have any concerns about WCAG 1.0 being superseded, please contact public-agwg-comments@w3.org (public archive) or group-ag-chairs@w3.org (private archive) by 30 September 2018.",
-            "content_html": "<p><a href=\"https://www.w3.org/TR/WCAG10/\">Web Content Accessibility Guidelines (WCAG) 1.0</a> is the first version of the guidelines finalized in 1999. We plan to mark WCAG 1.0 “superseded” by the end of this year. More information is in <a href=\"https://lists.w3.org/Archives/Public/w3c-wai-ig/2018JulSep/0166.html\">Superseding WCAG 1.0 e-mail</a> and the <a href=\"https://www.w3.org/2018/Process-20180201/#rec-rescind\">W3C Process document</a>. If you have any concerns about WCAG 1.0 being superseded, please contact <a href=\"mailto:public-agwg-comments@w3.org\">public-agwg-comments@w3.org</a> (public archive) or <a href=\"mailto:group-ag-chairs@w3.org\">group-ag-chairs@w3.org</a> (private archive) by <strong>30 September 2018</strong>.</p>",
-            "url": "https://www.w3.org/WAI/news/2018-08-30/WCAG-10-Superseded/",
-            
-            
-            
-            
-            
-            "date_published": "2018-08-30T00:00:00+00:00",
-            "date_modified": "2018-08-30T00:00:00+00:00",
             
                 "author": 
                 "W3C Web Accessibility Initiative (WAI)"

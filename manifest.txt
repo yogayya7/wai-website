@@ -584,8 +584,10 @@
 /news/2020-06-19/conformance-challenges-approaches-for-mitigating/index.html
 /news/2020-06-29/ATAG-Report-Tool/index.html
 /news/2020-07-17/content-usable/index.html
+/news/2020-08-11/wcag-2-2/index.html
 /news/21/index.html
 /news/22/index.html
+/news/23/index.html
 /news/3/index.html
 /news/4/index.html
 /news/5/index.html
