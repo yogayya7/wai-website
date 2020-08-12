@@ -449,7 +449,6 @@
 /fundamentals/components/ko.html
 /fundamentals/index.html
 /index.html
-/manifest.txt
 /media/av/acknowledgements/index.html
 /media/av/av-content/index.html
 /media/av/captions/index.html
@@ -603,7 +602,6 @@
 /older-users/img/captcha.png
 /older-users/index.html
 /older-users/literature/index.html
-/pages/wai-intro-wcag/new-in-22.html
 /people-use-web/abilities-barriers/fr.html
 /people-use-web/abilities-barriers/index.html
 /people-use-web/acknowledgments/index.html
@@ -800,6 +798,7 @@
 /standards-guidelines/wcag/index.html
 /standards-guidelines/wcag/new-in-21/es.html
 /standards-guidelines/wcag/new-in-21/index.html
+/standards-guidelines/wcag/new-in-22/index.html
 /standards-guidelines/wcag/non-web-ict/index.html
 /standards-guidelines/wcag/translations/index.html
 /standards-guidelines/zh-hans.html
