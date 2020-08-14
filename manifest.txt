@@ -449,6 +449,7 @@
 /fundamentals/components/ko.html
 /fundamentals/index.html
 /index.html
+/manifest.txt
 /media/av/acknowledgements/index.html
 /media/av/av-content/index.html
 /media/av/captions/index.html
