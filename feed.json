@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2020-08-24/WAI-Tools_meeting_September/",
+            "title": "Invitation: WAI-Tools Online Meeting 22 September 2020",
+            "summary": null,
+            "content_text": "You are invited to the WAI-Tools Online Open Meeting on 22 September 2020. The meeting is intended for web accessibility practitioners, evaluation and quality assurance tool vendors, website owners, European monitoring bodies, researchers, and users interested in large-scale monitoring of web accessibility. Agenda, logistics, and registration information is in the &lt;a href=” https://www.w3.org/WAI/about/projects/wai-tools/third-open-meeting/”&gt;WAI-Tools Meeting September 2020 page&lt;/a&gt;. This meeting is free, and registration is required.",
+            "content_html": "<p>You are invited to the WAI-Tools Online Open Meeting on 22 September 2020. The meeting is intended for web accessibility practitioners, evaluation and quality assurance tool vendors, website owners, European monitoring bodies, researchers, and users interested in large-scale monitoring of web accessibility. Agenda, logistics, and registration information is in the &lt;a href=” https://www.w3.org/WAI/about/projects/wai-tools/third-open-meeting/”&gt;WAI-Tools Meeting September 2020 page&lt;/a&gt;. This meeting is free, and registration is required.</p>",
+            "url": "https://www.w3.org/WAI/news/2020-08-24/WAI-Tools_meeting_September/",
+            
+            
+            
+            
+            
+            "date_published": "2020-08-24T00:00:00+00:00",
+            "date_modified": "2020-08-24T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2020-08-11/wcag-2-2/",
             "title": "For Wide Review: Web Content Accessibility Guidelines (WCAG) 2.2 Working Draft",
             "summary": null,
@@ -740,27 +761,6 @@
             
             "date_published": "2018-09-13T10:00:00+00:00",
             "date_modified": "2018-09-13T10:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2018-09-13/WCAG-21-Italian-Authorized-Translation/",
-            "title": "WCAG 2.1 in Italian: Authorized Translation Published",
-            "summary": null,
-            "content_text": "Linee guida per l'accessibilità dei contenuti Web (WCAG) 2.1, the Italian Authorized Translation of Web Content Accessibility Guidelines (WCAG) 2.1, is now available, following completion of the W3C Authorized Translations process. WAI encourages translating WAI documents in all languages. See:  WCAG 2 Translations for a list of other completed and planned translations  WCAG 2.1 Italian Authorized Translation Published e-mail if you want more information",
-            "content_html": "<p><a href=\"https://www.w3.org/Translations/WCAG21-it/\" lang=\"it\" hreflang=\"it\">Linee guida per l'accessibilità dei contenuti Web (WCAG) 2.1</a>, the Italian Authorized Translation of <a href=\"http://www.w3.org/WAI/intro/wcag\">Web Content Accessibility Guidelines (WCAG) 2.1</a>, is now available, following completion of the <a href=\"http://www.w3.org/2005/02/TranslationPolicy\">W3C Authorized Translations process</a>. WAI encourages translating WAI documents in all languages. See:</p><ul>  <li><strong><a href=\"http://www.w3.org/WAI/WCAG20/translations\">WCAG 2 Translations</a> for a list of other completed and planned translations</strong></li>  <li><a href=\"https://lists.w3.org/Archives/Public/w3c-wai-ig/2018JulSep/0209.html\">WCAG 2.1 Italian Authorized Translation Published e-mail</a> if you want more information</li></ul>",
-            "url": "https://www.w3.org/WAI/news/2018-09-13/WCAG-21-Italian-Authorized-Translation/",
-            
-            
-            
-            
-            
-            "date_published": "2018-09-13T09:00:00+00:00",
-            "date_modified": "2018-09-13T09:00:00+00:00",
             
                 "author": 
                 "W3C Web Accessibility Initiative (WAI)"
