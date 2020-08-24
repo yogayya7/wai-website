@@ -388,6 +388,7 @@
 /content-images/wai-std-gl-overview/specs.fr.png
 /content-images/wai-std-gl-overview/specs.png
 /content-images/wai-video-standards-and-benefits/W3C_INTRO_SFHI.ar.vtt
+/content-images/wai-video-standards-and-benefits/W3C_INTRO_SFHI.cs.vtt
 /content-images/wai-video-standards-and-benefits/W3C_INTRO_SFHI.de.vtt
 /content-images/wai-video-standards-and-benefits/W3C_INTRO_SFHI.el.vtt
 /content-images/wai-video-standards-and-benefits/W3C_INTRO_SFHI.en.vtt
@@ -449,6 +450,7 @@
 /fundamentals/components/ko.html
 /fundamentals/index.html
 /index.html
+/manifest.txt
 /media/av/acknowledgements/index.html
 /media/av/av-content/index.html
 /media/av/captions/index.html
