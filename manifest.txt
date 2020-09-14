@@ -605,6 +605,7 @@
 /older-users/img/captcha.png
 /older-users/index.html
 /older-users/literature/index.html
+/pages/wai-resource-list
 /people-use-web/abilities-barriers/fr.html
 /people-use-web/abilities-barriers/index.html
 /people-use-web/acknowledgments/index.html
